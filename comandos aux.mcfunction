@@ -183,9 +183,84 @@
 /execute as @e[tag=LobbyHappiestDummy1] run scoreboard players add @s PassiveLobbyLightFlickerTimer 1
 /execute as @e[tag=LobbyHappiestDummy1] if score @s PassiveLobbyLightFlickerTimer matches 60 run scoreboard players set @s PassiveLobbyLightFlickerTimer 0
 
-/execute as @e[tag=LobbyHappiestDummy1] if score @s PassiveLobbyLightFlickerTimer matches 0 run setblock 8 -51 -7 dustrial_decor:cyan_neon_light
-/execute as @e[tag=LobbyHappiestDummy1] if score @s PassiveLobbyLightFlickerTimer matches 0 run setblock 10 -51 -7 dustrial_decor:blue_neon_light
-/execute as @e[tag=LobbyHappiestDummy1] if score @s PassiveLobbyLightFlickerTimer matches 0 run setblock 12 -51 -7 dustrial_decor:cyan_neon_light
-/execute as @e[tag=LobbyHappiestDummy1] if score @s PassiveLobbyLightFlickerTimer matches 29 run setblock 8 -51 -7 dustrial_decor:blue_neon_light
-/execute as @e[tag=LobbyHappiestDummy1] if score @s PassiveLobbyLightFlickerTimer matches 29 run setblock 10 -51 -7 dustrial_decor:cyan_neon_light
-/execute as @e[tag=LobbyHappiestDummy1] if score @s PassiveLobbyLightFlickerTimer matches 29 run setblock 12 -51 -7 dustrial_decor:blue_neon_light
+
+/execute as @e[tag=LobbyHappiestDummy1] if score @s PassiveLobbyLightFlickerTimer matches 0 run setblock 5 -60 -3 minecraft:redstone_block
+/setblock 8 -51 -7 dustrial_decor:cyan_neon_light
+/setblock 10 -51 -7 dustrial_decor:blue_neon_light
+/setblock 12 -51 -7 dustrial_decor:cyan_neon_light
+
+/execute as @e[tag=LobbyHappiestDummy1] if score @s PassiveLobbyLightFlickerTimer matches 29 run setblock 3 -60 -3 minecraft:redstone_block
+/setblock 8 -51 -7 dustrial_decor:blue_neon_light
+/setblock 10 -51 -7 dustrial_decor:cyan_neon_light
+/setblock 12 -51 -7 dustrial_decor:blue_neon_light
+
+
+#-----------------------
+
+
+
+/summon minecraft:armor_stand -23 -41 4 {NoGravity:1b,Invulnerable:1b,Invisible:0b,CustomName:'{"text":"LobbyLineLightsFloorDummyYAY"}',CustomNameVisible:0b,Tags:["LobbyLineLightsFloorDummyYAY"]}
+
+can you replace the surrounding minecraft:black_stained_glass with minecraft:light_blue_stained_glass at the blocks that are 1 block away, but with minecraft:cyan_stained_glass at the blocks that are 2 blocks away. idk maybe this helps:
+/execute as @e[tag=LobbyMainLightNucleusDumy2] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 dustrial_decor:blue_neon_light replace dustrial_decor:cyan_neon_light
+
+# Replace blocks 1 block away with light blue stained glass
+/execute as @e[tag=LobbyLineLightsFloorDummyYAY] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:light_blue_stained_glass replace minecraft:black_stained_glass
+
+# Replace blocks 2 blocks away with cyan stained glass
+/execute as @e[tag=LobbyLineLightsFloorDummyYAY] at @s run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:cyan_stained_glass replace minecraft:black_stained_glass
+
+# Reset the inner 1-block layer to light blue stained glass (if any cyan replaced it accidentally)
+/execute as @e[tag=LobbyLineLightsFloorDummyYAY] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:light_blue_stained_glass replace minecraft:cyan_stained_glass
+
+
+
+
+
+
+/summon armor_stand -19 -41 4 {NoGravity:1b,Invulnerable:1b,Invisible:0b,CustomName:'{"text":"LobbyLineLightsFloorDummy3a"}',CustomNameVisible:0b,Tags:["LobbyLineLightsFloorDummy3a", "LobbyLineLightsFloorGroup3"]}
+/summon armor_stand -17 -41 4 {NoGravity:1b,Invulnerable:1b,Invisible:0b,CustomName:'{"text":"LobbyLineLightsFloorDummy3b"}',CustomNameVisible:0b,Tags:["LobbyLineLightsFloorDummy3b", "LobbyLineLightsFloorGroup4"]}
+/summon armor_stand -14 -41 4 {NoGravity:1b,Invulnerable:1b,Invisible:0b,CustomName:'{"text":"LobbyLineLightsFloorDummy3c"}',CustomNameVisible:0b,Tags:["LobbyLineLightsFloorDummy3c", "LobbyLineLightsFloorGroup5"]}
+
+/summon armor_stand -19 -41 15 {NoGravity:1b,Invulnerable:1b,Invisible:0b,CustomName:'{"text":"LobbyLineLightsFloorDummy4a"}',CustomNameVisible:0b,Tags:["LobbyLineLightsFloorDummy4a", "LobbyLineLightsFloorGroup3"]}
+/summon armor_stand -17 -41 15 {NoGravity:1b,Invulnerable:1b,Invisible:0b,CustomName:'{"text":"LobbyLineLightsFloorDummy4b"}',CustomNameVisible:0b,Tags:["LobbyLineLightsFloorDummy4b", "LobbyLineLightsFloorGroup4"]}
+/summon armor_stand -14 -41 15 {NoGravity:1b,Invulnerable:1b,Invisible:0b,CustomName:'{"text":"LobbyLineLightsFloorDummy4c"}',CustomNameVisible:0b,Tags:["LobbyLineLightsFloorDummy4c", "LobbyLineLightsFloorGroup5"]}
+
+/execute as @e[tag=LobbyLineLightsFloorGroup3] at @s run setblock ~ ~ ~ minecraft:gray_stained_glass replace minecraft:light_blue_stained_glass
+/execute as @e[tag=LobbyLineLightsFloorGroup4] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:gray_stained_glass replace minecraft:cyan_stained_glass
+/execute as @e[tag=LobbyLineLightsFloorGroup4] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:light_blue_stained_glass replace minecraft:cyan_stained_glass
+/execute as @e[tag=LobbyLineLightsFloorGroup5] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:cyan_stained_glass replace minecraft:gray_stained_glass
+
+/execute as @e[tag=LobbyLineLightsFloorGroup3] at @s run tp @s ~-0.3 ~ ~
+/execute as @e[tag=LobbyLineLightsFloorGroup4] at @s run tp @s ~-0.3 ~ ~
+/execute as @e[tag=LobbyLineLightsFloorGroup5] at @s run tp @s ~-0.3 ~ ~
+
+/execute as @e[tag=LobbyLineLightsFloorSyncDummy] if score @s LobbyLineLightsFloorDummiesSyncTimer1 matches 114 run execute as @e[tag=LobbyLineLightsFloorDummy3a] at @s run tp @s -19 ~ 4
+/execute as @e[tag=LobbyLineLightsFloorSyncDummy] if score @s LobbyLineLightsFloorDummiesSyncTimer1 matches 114 run execute as @e[tag=LobbyLineLightsFloorDummy3b] at @s run tp @s -17 ~ 4
+/execute as @e[tag=LobbyLineLightsFloorSyncDummy] if score @s LobbyLineLightsFloorDummiesSyncTimer1 matches 114 run execute as @e[tag=LobbyLineLightsFloorDummy3c] at @s run tp @s -14 ~ 4
+
+/execute as @e[tag=LobbyLineLightsFloorSyncDummy] if score @s LobbyLineLightsFloorDummiesSyncTimer1 matches 114 run execute as @e[tag=LobbyLineLightsFloorDummy4a] at @s run tp @s -19 ~ 15
+/execute as @e[tag=LobbyLineLightsFloorSyncDummy] if score @s LobbyLineLightsFloorDummiesSyncTimer1 matches 114 run execute as @e[tag=LobbyLineLightsFloorDummy4b] at @s run tp @s -17 ~ 15
+/execute as @e[tag=LobbyLineLightsFloorSyncDummy] if score @s LobbyLineLightsFloorDummiesSyncTimer1 matches 114 run execute as @e[tag=LobbyLineLightsFloorDummy4c] at @s run tp @s -14 ~ 15
+
+
+
+
+
+
+
+
+/execute as @e[tag=LobbyLineLightsFloorGroup3] at @s run setblock ~ ~ ~ minecraft:light_blue_stained_glass
+/execute as @e[tag=LobbyLineLightsFloorGroup4] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:cyan_stained_glass replace minecraft:light_blue_stained_glass
+/execute as @e[tag=LobbyLineLightsFloorGroup5] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:gray_stained_glass replace minecraft:light_blue_stained_glass
+/execute as @e[tag=LobbyLineLightsFloorGroup5] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:gray_stained_glass replace minecraft:cyan_stained_glass
+
+/execute as @e[tag=LobbyLineLightsFloorGroup3] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:lightblue_stained_glass replace minecraft:gray_stained_glass
+/execute as @e[tag=LobbyLineLightsFloorGroup3] at @s run setblock ~ ~ ~ minecraft:light_blue_stained_glass
+/execute as @e[tag=LobbyLineLightsFloorGroup4] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:cyan_stained_glass replace minecraft:light_blue_stained_glass
+
+
+
+/execute as @e[tag=LobbyLineLightsFloorSyncDummy] if score @s LobbyLineLightsFloorDummiesSyncTimer1 >= @s AuxNumber40 if score @s LobbyLineLightsFloorDummiesSyncTimer1 <= @s AuxNumber70 run execute as @e[tag=LobbyLineLightsFloorDummy3a] at @s run tp ~ ~ ~0.5
+/execute as @e[tag=LobbyLineLightsFloorSyncDummy] if score @s LobbyLineLightsFloorDummiesSyncTimer1 >= @s AuxNumber50 if score @s LobbyLineLightsFloorDummiesSyncTimer1 <= @s AuxNumber80 run execute as @e[tag=LobbyLineLightsFloorDummy3b] at @s run tp ~ ~ ~0.5
+/execute as @e[tag=LobbyLineLightsFloorSyncDummy] if score @s LobbyLineLightsFloorDummiesSyncTimer1 >= @s AuxNumber60 if score @s LobbyLineLightsFloorDummiesSyncTimer1 <= @s AuxNumber90 run execute as @e[tag=LobbyLineLightsFloorDummy3c] at @s run tp ~ ~ ~0.5
