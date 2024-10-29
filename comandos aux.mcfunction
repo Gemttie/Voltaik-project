@@ -328,4 +328,126 @@ LobbyLineLightsFloorGroup5
 /execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer < @s AuxNumber50 if score @s PassiveLobbyLightFlickerTimer <= @s AuxNumber30 run execute as @e[tag=LobbyMainElevatorMessageGroup1] run data merge entity @s {CustomNameVisible:0b}
 
 /execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer >= @s AuxNumber50 if score @s PassiveLobbyLightFlickerTimer matches 59 run execute as @e[tag=LobbyMainElevatorMessageGroup1] run data merge entity @s {CustomNameVisible:1b}
-/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer >= @s AuxNumber50 if score @s PassiveLobbyLightFlickerTimer > run execute as @e[tag=LobbyMainElevatorMessageGroup1] run data merge entity @s {CustomNameVisible:1b}
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer >= @s AuxNumber50 if score @s PassiveLobbyLightFlickerTimer > @s AuxNumber30 run execute as @e[tag=LobbyMainElevatorMessageGroup1] run data merge entity @s {CustomNameVisible:1b}
+
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer >= @s AuxNumber50 run execute as @e[tag=LobbyMainElevatorDummyMessage1] run data merge entity @s {CustomNameVisible:1b}
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer >= @s AuxNumber50 run execute as @e[tag=LobbyMainElevatorDummyMessage2] run data merge entity @s {CustomNameVisible:1b}
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer >= @s AuxNumber50 if score @s PassiveLobbyLightFlickerTimer < @s AuxNumber30 run execute as @e[tag=LobbyMainElevatorDummyMessage3] run data merge entity @s {CustomNameVisible:1b}
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer >= @s AuxNumber50 if score @s PassiveLobbyLightFlickerTimer >= @s AuxNumber30 run execute as @e[tag=LobbyMainElevatorDummyMessage3] run data merge entity @s {CustomNameVisible:0b}
+
+
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer >= @s AuxNumber50 if score @s PassiveLobbyLightFlickerTimer < @s AuxNumber15 run execute as @e[tag=LobbyMainElevatorDummyMessage3] run data merge entity @s {CustomNameVisible:1b}
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer >= @s AuxNumber50 if score @s PassiveLobbyLightFlickerTimer >= @s AuxNumber15 if score @s PassiveLobbyLightFlickerTimer < @s AuxNumber30 run execute as @e[tag=LobbyMainElevatorDummyMessage3] run data merge entity @s {CustomNameVisible:0b}
+
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer >= @s AuxNumber50 if score @s PassiveLobbyLightFlickerTimer >= @s AuxNumber30  if score @s PassiveLobbyLightFlickerTimer < @s AuxNumber45 run execute as @e[tag=LobbyMainElevatorDummyMessage3] run data merge entity @s {CustomNameVisible:1b}
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer >= @s AuxNumber50 if score @s PassiveLobbyLightFlickerTimer >= @s AuxNumber45 run execute as @e[tag=LobbyMainElevatorDummyMessage3] run data merge entity @s {CustomNameVisible:0b}
+
+
+# Show the name when conditions are met
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer >= @s AuxNumber50 if score @s PassiveLobbyLightFlickerTimer < @s AuxNumber15 run execute as @e[tag=LobbyMainElevatorDummyMessage3] run data merge entity @s {CustomNameVisible:1b}
+
+# Hide the name when conditions are met
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer >= @s AuxNumber50 if score @s PassiveLobbyLightFlickerTimer >= @s AuxNumber15 if score @s PassiveLobbyLightFlickerTimer < @s AuxNumber30 run execute as @e[tag=LobbyMainElevatorDummyMessage3] run data merge entity @s {CustomNameVisible:0b}
+
+# Show the name again when conditions are met
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer >= @s AuxNumber50 if score @s PassiveLobbyLightFlickerTimer >= @s AuxNumber30 if score @s PassiveLobbyLightFlickerTimer < @s AuxNumber45 run execute as @e[tag=LobbyMainElevatorDummyMessage3] run data merge entity @s {CustomNameVisible:1b}
+
+# Hide the name when conditions are met
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer >= @s AuxNumber50 if score @s PassiveLobbyLightFlickerTimer >= @s AuxNumber45 run execute as @e[tag=LobbyMainElevatorDummyMessage3] run data merge entity @s {CustomNameVisible:0b}
+
+
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer < @s AuxNumber50 run execute as @e[tag=LobbyMainElevatorMessageGroup1] run data merge entity @s {CustomNameVisible:0b}
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer >= @s AuxNumber50 run execute as @e[tag=LobbyMainElevatorDummyMessage1] run data merge entity @s {CustomNameVisible:1b}
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer >= @s AuxNumber50 run execute as @e[tag=LobbyMainElevatorDummyMessage2] run data merge entity @s {CustomNameVisible:1b}
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer >= @s AuxNumber50 if score @s PassiveLobbyLightFlickerTimer < @s AuxNumber30 run execute as @e[tag=LobbyMainElevatorDummyMessage3] run data merge entity @s {CustomNameVisible:1b}
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer >= @s AuxNumber50 if score @s PassiveLobbyLightFlickerTimer >= @s AuxNumber30 run execute as @e[tag=LobbyMainElevatorDummyMessage3] run data merge entity @s {CustomNameVisible:0b}
+
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer2 < @s AuxNumber50 run execute as @e[tag=LobbyMainElevatorMessageGroup2] run data merge entity @s {CustomNameVisible:0b}
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer2 >= @s AuxNumber50 run execute as @e[tag=LobbyMainElevatorDummyMessage4] run data merge entity @s {CustomNameVisible:1b}
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer2 >= @s AuxNumber50 run execute as @e[tag=LobbyMainElevatorDummyMessage5] run data merge entity @s {CustomNameVisible:1b}
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer2 >= @s AuxNumber50 if score @s PassiveLobbyLightFlickerTimer < @s AuxNumber30 run execute as @e[tag=LobbyMainElevatorDummyMessage6] run data merge entity @s {CustomNameVisible:1b}
+/execute as @e[tag=LobbyHappiestDummy1] if score @s LobbyElevatorMessageTimer2 >= @s AuxNumber50 if score @s PassiveLobbyLightFlickerTimer >= @s AuxNumber30 run execute as @e[tag=LobbyMainElevatorDummyMessage6] run data merge entity @s {CustomNameVisible:0b}
+
+
+
+
+#-----------------------------
+
+/summon armor_stand -16 -37 7 {NoGravity:1b,Invulnerable:1b,Invisible:0b,CustomName:'{"text":"LobbyLineLightsFloorDummy5a"}',CustomNameVisible:0b,Tags:["LobbyLineLightsFloorDummy5a", "LobbyLineLightsFloorGroup6"]}
+/summon armor_stand -14 -37 7 {NoGravity:1b,Invulnerable:1b,Invisible:0b,CustomName:'{"text":"LobbyLineLightsFloorDummy6a"}',CustomNameVisible:0b,Tags:["LobbyLineLightsFloorDummy6a", "LobbyLineLightsFloorGroup6"]}
+/summon armor_stand -12 -37 7 {NoGravity:1b,Invulnerable:1b,Invisible:0b,CustomName:'{"text":"LobbyLineLightsFloorDummy5b"}',CustomNameVisible:0b,Tags:["LobbyLineLightsFloorDummy5b", "LobbyLineLightsFloorGroup7"]}
+/summon armor_stand -16 -37 12 {NoGravity:1b,Invulnerable:1b,Invisible:0b,CustomName:'{"text":"LobbyLineLightsFloorDummy6b"}',CustomNameVisible:0b,Tags:["LobbyLineLightsFloorDummy6b", "LobbyLineLightsFloorGroup7"]}
+/summon armor_stand -14 -37 12 {NoGravity:1b,Invulnerable:1b,Invisible:0b,CustomName:'{"text":"LobbyLineLightsFloorDummy5c"}',CustomNameVisible:0b,Tags:["LobbyLineLightsFloorDummy5c", "LobbyLineLightsFloorGroup8"]}
+/summon armor_stand -12 -37 12 {NoGravity:1b,Invulnerable:1b,Invisible:0b,CustomName:'{"text":"LobbyLineLightsFloorDummy6c"}',CustomNameVisible:0b,Tags:["LobbyLineLightsFloorDummy6c", "LobbyLineLightsFloorGroup8"]}
+
+/execute as @e[tag=LobbyLineLightsFloorGroup6] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:light_blue_stained_glass replace minecraft:gray_stained_glass
+/execute as @e[tag=LobbyLineLightsFloorGroup7] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:cyan_stained_glass replace minecraft:light_blue_stained_glass
+/execute as @e[tag=LobbyLineLightsFloorGroup8] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:gray_stained_glass replace minecraft:light_blue_stained_glass
+/execute as @e[tag=LobbyLineLightsFloorGroup8] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:gray_stained_glass replace minecraft:cyan_stained_glass
+
+/execute as @e[tag=LobbyLineLightsFloorGroup6] at @s run tp @s ~-0.2 ~ ~
+/execute as @e[tag=LobbyLineLightsFloorGroup7] at @s run tp @s ~-0.2 ~ ~
+/execute as @e[tag=LobbyLineLightsFloorGroup8] at @s run tp @s ~-0.2 ~ ~
+
+/execute as @e[tag=LobbyLineLightsFloorSyncDummy] if score @s LobbyLineLightsFloorDummiesSyncTimer1 matches 114 run execute as @e[tag=LobbyLineLightsFloorDummy5a] at @s run tp @s -16 ~ 7
+/execute as @e[tag=LobbyLineLightsFloorSyncDummy] if score @s LobbyLineLightsFloorDummiesSyncTimer1 matches 114 run execute as @e[tag=LobbyLineLightsFloorDummy5b] at @s run tp @s -14 ~ 7
+/execute as @e[tag=LobbyLineLightsFloorSyncDummy] if score @s LobbyLineLightsFloorDummiesSyncTimer1 matches 114 run execute as @e[tag=LobbyLineLightsFloorDummy5c] at @s run tp @s -12 ~ 7
+/execute as @e[tag=LobbyLineLightsFloorSyncDummy] if score @s LobbyLineLightsFloorDummiesSyncTimer1 matches 114 run execute as @e[tag=LobbyLineLightsFloorDummy6a] at @s run tp @s -16 ~ 12
+/execute as @e[tag=LobbyLineLightsFloorSyncDummy] if score @s LobbyLineLightsFloorDummiesSyncTimer1 matches 114 run execute as @e[tag=LobbyLineLightsFloorDummy6b] at @s run tp @s -14 ~ 12
+/execute as @e[tag=LobbyLineLightsFloorSyncDummy] if score @s LobbyLineLightsFloorDummiesSyncTimer1 matches 114 run execute as @e[tag=LobbyLineLightsFloorDummy6c] at @s run tp @s -12 ~ 12
+
+i want commands to replace all the x blocks with y blocks from -16 -41 3 to -31 -34 16
+1stcommand: that but replace all light_blue_stained_glass with gray_stained_glass
+1stcommand: that but replace all cyan_stained_glass with gray_stained_glass
+ 
+ /fill -16 -41 3 -31 -34 16 gray_stained_glass replace light_blue_stained_glass
+/fill -16 -41 3 -31 -34 16 gray_stained_glass replace cyan_stained_glass
+
+/fill 18 -52 17 -19 -43 3 dustrial_decor:cyan_neon_light replace dustrial_decor:blue_neon_light
+
+#start high graphics
+# /setblock 12 -57 18 minecraft:redstone_block
+# /setblock 12 -57 18 minecraft:glass
+/setblock 21 -60 22 minecraft:redstone_block
+/setblock 21 -60 22 minecraft:air
+/setblock 18 -60 22 minecraft:redstone_block
+/setblock 18 -60 22 minecraft:air
+/data merge block 19 -60 21 {auto:0b}
+/data merge block 20 -60 21 {auto:0b}
+/fill -16 -41 3 -31 -34 16 gray_stained_glass replace light_blue_stained_glass
+/fill -16 -41 3 -31 -34 16 gray_stained_glass replace cyan_stained_glass
+/fill 18 -52 17 -19 -43 3 dustrial_decor:cyan_neon_light replace dustrial_decor:blue_neon_light
+/data merge block 24 -60 21 {auto:0b}
+
+/fill 22 -58 20 22 -56 20 minecraft:redstone_block
+/fill 22 -58 20 22 -56 20 minecraft:air
+/data merge block 20 -60 21 {auto:1b}
+/data merge block 24 -60 21 {auto:1b}
+
+
+
+
+#start high graphics
+# /setblock 12 -57 18 minecraft:redstone_block
+# /setblock 12 -57 18 minecraft:glass
+/setblock 21 -60 22 minecraft:redstone_block
+/setblock 21 -60 22 minecraft:air
+/setblock 18 -60 22 minecraft:redstone_block
+/setblock 18 -60 22 minecraft:air
+
+/fill -16 -41 3 -31 -34 16 gray_stained_glass replace light_blue_stained_glass
+/fill -16 -41 3 -31 -34 16 gray_stained_glass replace cyan_stained_glass
+/fill 18 -52 17 -19 -43 3 dustrial_decor:cyan_neon_light replace dustrial_decor:blue_neon_light
+
+/fill 22 -58 20 22 -56 20 minecraft:redstone_block
+/fill 22 -58 20 22 -56 20 minecraft:air
+
+/data merge block 19 -60 21 {auto:0b}
+/data merge block 20 -60 21 {auto:1b}
+/data merge block 24 -60 21 {auto:1b}
+
+/execute as @e[tag=LobbyHappiestDummy1] run 
+
+
+
+/summon armor_stand -19 -41 4 {NoGravity:1b,Invulnerable:1b,Invisible:0b,CustomName:'{"text":"LobbyLineLightsFloorDummy3a"}',CustomNameVisible:0b,Tags:["LobbyLineLightsFloorDummy3a", "LobbyLineLightsFloorGroup3"]}
