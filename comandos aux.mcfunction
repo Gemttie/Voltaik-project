@@ -451,3 +451,60 @@ i want commands to replace all the x blocks with y blocks from -16 -41 3 to -31 
 
 
 /summon armor_stand -19 -41 4 {NoGravity:1b,Invulnerable:1b,Invisible:0b,CustomName:'{"text":"LobbyLineLightsFloorDummy3a"}',CustomNameVisible:0b,Tags:["LobbyLineLightsFloorDummy3a", "LobbyLineLightsFloorGroup3"]}
+
+
+
+/execute at @e[tag=MusicalLobbyDummy1] if @e[type=player, distance=..10] run scoreboard players @e[tag=MusicalLobbyDummy1] set MusicPlaying1Toggle 1
+
+/execute at @e[tag=MusicalLobbyDummy1] if @e[type=player, distance=..10] run setblock -1 -60 -4 minecraft:redstone_block
+
+
+/execute at @e[tag=MusicalLobbyDummy1] if @e[type=player, distance=..10] run playsound minecraft:music_disc.cat record @a[distance=..10] ~ ~ ~ 1 1
+
+/execute at @e[tag=MusicalLobbyDummy1] if @e[type=player, distance=!..10] run setblock -1 -60 -4 minecraft:air
+/execute at @e[tag=MusicalLobbyDummy1] if @e[type=player, distance=!..10] run scoreboard players @e[tag=MusicalLobbyDummy1] set MusicPlaying1Toggle 0
+
+#--------------
+
+/execute at @e[tag=MusicalLobbyDummy1, scores={MusicPlaying1Toggle=0}] if entity @a[distance=..10] run scoreboard players set @e[tag=MusicalLobbyDummy1] MusicPlaying1Toggle 1
+
+/execute at @e[tag=MusicalLobbyDummy1, scores={MusicPlaying1Toggle=1}] if entity @a[distance=..10] run setblock -1 -60 -4 minecraft:redstone_block
+
+
+
+
+/execute at @e[tag=MusicalLobbyDummy1, scores={MusicPlaying1Toggle=1}] unless entity @a[distance=..10] run setblock -1 -60 -4 minecraft:air
+
+/execute at @e[tag=MusicalLobbyDummy1, scores={MusicPlaying1Toggle=1}] unless entity @a[distance=..10] run scoreboard players set @e[tag=MusicalLobbyDummy1] MusicPlaying1Toggle 0
+#-----------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#--------------
+/execute at @e[tag=MusicalLobbyDummy1, scores={MusicPlaying1Toggle=0}] if entity @a[distance=..10] run scoreboard players set @e[tag=MusicalLobbyDummy1] MusicPlaying1Toggle 1
+/execute at @e[tag=MusicalLobbyDummy1, scores={MusicPlaying1Toggle=1}] if entity @a[distance=..10] run setblock -1 -60 -4 minecraft:redstone_block
+
+
+/execute at @e[tag=MusicalLobbyDummy1, scores={MusicPlaying1Toggle=1}] unless entity @a[distance=..10] run stopsound @a[distance=..100] record minecraft:music_disc.cat
+/execute at @e[tag=MusicalLobbyDummy1, scores={MusicPlaying1Toggle=1}] unless entity @a[distance=..10] run setblock -1 -60 -4 minecraft:air
+/execute at @e[tag=MusicalLobbyDummy1, scores={MusicPlaying1Toggle=1}] unless entity @a[distance=..10] run scoreboard players set @e[tag=MusicalLobbyDummy1] MusicPlaying1Toggle 0
+
+
+/execute at @e[tag=MusicalLobbyDummy1, scores={MusicPlaying1Toggle=1}] if entity @a[distance=..10] run playsound minecraft:music_disc.cat background @a[distance=..10] ~ ~ ~ 1 1
+
+#--------
+/playsound minecraft:music.game music Ginnyd
+#Detener sunicamente todas las canciones de game vanilla hahah, no detiene custom
+/stopsound @a music minecraft:music.game
