@@ -508,3 +508,21 @@ i want commands to replace all the x blocks with y blocks from -16 -41 3 to -31 
 /playsound minecraft:music.game music Ginnyd
 #Detener sunicamente todas las canciones de game vanilla hahah, no detiene custom
 /stopsound @a music minecraft:music.game
+
+
+
+
+
+
+#---------platform
+
+/summon armor_stand -23 72.85 7 {Tags:["CollectedStarsDummy1"],CustomNameVisible:1b,CustomName:'[{"text":"Estrellas recolectadas :","color":"#f5ed5f"}]',Invisible:1b,Marker:1b,Invulnerable:1b}
+/summon armor_stand -23 72.35 7 {Tags:["CollectedStarsDummy2"],CustomNameVisible:1b,CustomName:'[{"text":"0 ✯","color":"#f5ed5f"}]',Invisible:1b,Marker:1b,Invulnerable:1b}
+
+-23 87 7
+/summon armor_stand -23 87.85 7 {Tags:["CollectedStarsDummy1"],CustomNameVisible:1b,CustomName:'[{"text":"Estrellas recolectadas :","color":"#f5ed5f"}]',Invisible:1b,Marker:1b,Invulnerable:1b}
+/summon armor_stand -23 87.35 7 {Tags:["CollectedStarsDummy2"],CustomNameVisible:1b,CustomName:'[{"text":"0 ✯","color":"#f5ed5f"}]',Invisible:1b,Marker:1b,Invulnerable:1b}
+
+-23 102 7
+/summon armor_stand -23 102.85 7 {Tags:["CollectedStarsDummy1"],CustomNameVisible:1b,CustomName:'[{"text":"Estrellas recolectadas :","color":"#f5ed5f"}]',Invisible:1b,Marker:1b,Invulnerable:1b}
+/summon armor_stand -23 102.35 7 {Tags:["CollectedStarsDummy2"],CustomNameVisible:1b,CustomName:'[{"text":"0 ✯","color":"#f5ed5f"}]',Invisible:1b,Marker:1b,Invulnerable:1b}
