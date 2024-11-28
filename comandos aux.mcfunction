@@ -915,8 +915,11 @@ i want commands to replace all the x blocks with y blocks from -16 -41 3 to -31 
 #-----------
 #SETUP CODE FOR WORLD1
 #-----------
-/scoreboard objectives add  dummy
-/scoreboard objectives add  dummy
+/scoreboard objectives add World1AuxToggle dummy
+
+/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World1AuxToggle 1
+
+/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World1ProximityDoorStatus 0
 /scoreboard objectives add  dummy
 
 /summon armor_stand -17.50 70.00 10.00 {Tags:["World1ProximitytriggerDummy","WorldGeneralProximityTriggerDummy"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"World 1 Proximity Trigger"}',CustomNameVisible:0b}
