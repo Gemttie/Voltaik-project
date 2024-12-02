@@ -179,4 +179,53 @@
 #-----------------
 /summon armor_stand -15.50 67.75 8.05 {Tags:["lightTestDummy1","lightTestDummy"],Invisible:0b,Invulnerable:1b,CustomNameVisible:0b,Marker:1b,Rotation:[0f,0f],HandItems:[{id:"dustrial_decor:cyan_neon_light",Count:1b},{}]}
 
-/kill @e[tag=lightTestDummy]
+/kill @e[tag=World2LightStartingDummy1]
+
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s StarsCollected matches 42 run data merge entity @e[tag=CollectedStarsDummy2,limit=1] {CustomName:'{"text":"42 ✯","color":"#f5ed5f"}'}
+/execute as @e[tag=LobbyHappiestDummy2] if score @s StarsCollected matches 50 run data merge entity @e[tag=CollectedStarsDummy2,limit=1] {CustomName:'{"text":"50 ✯","color":"#f5ed5f"}'}
+
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount matches 150 run execute as @e[tag=WorldModulePassingBridgeGenerator1] at @s run fill ^0 ^ ^-1 ^-1 ^ ^-1 dustrial_decor:sheet_metal_plating_slab[type=top]
+/execute at @e[tag=World1ProximitytriggerDummy] run playsound minecraft:ui.toast.in block @a[distance=..8] ~ ~ ~ 3 0.1
+
+
+#----
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount matches 150 run execute as @e[tag=WorldModulePassingBridgeGenerator1] at @s run fill ^0 ^ ^-1 ^-1 ^ ^-1 dustrial_decor:sheet_metal_plating_slab[type=top]
+
+/execute at @e[tag=WorldProximityGeneralTriggerDummy] run playsound minecraft:ui.toast.in block @a[distance=..8] ~ ~ ~ 3 0.1
+/execute at @e[tag=World1ProximitytriggerDummy] run playsound minecraft:ui.toast.in block @a[distance=..8] ~ ~ ~ 3 0.1
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount matches 160 run execute as @e[tag=WorldModulePassingBridgeGenerator1] at @s run fill ^0 ^ ^-2 ^-1 ^ ^-2 dustrial_decor:cast_iron_brick_slab[type=top]
+
+/execute at @e[tag=World1ProximitytriggerDummy] run playsound minecraft:ui.toast.in block @a[distance=..8] ~ ~ ~ 3 0.1
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount matches 170 run execute as @e[tag=WorldModulePassingBridgeGenerator1] at @s run fill ^0 ^ ^-3 ^-1 ^ ^-3 dustrial_decor:sheet_metal_plating_slab[type=top]
+
+/execute at @e[tag=World1ProximitytriggerDummy] run playsound minecraft:ui.toast.in block @a[distance=..8] ~ ~ ~ 3 0.1
+
+
+
+
+
+/tellraw @p {"text":"[DESBLOQUEAR MUNDO 5]","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World5ProximityDoorStatus 1"}}
+/tellraw @p {"text":"[DESBLOQUEAR MUNDO 6]","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World6ProximityDoorStatus 1"}}
+/tellraw @p {"text":"[DESBLOQUEAR MUNDO 7]","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World7ProximityDoorStatus 1"}}
+/tellraw @p {"text":"[DESBLOQUEAR MUNDO 8]","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World8ProximityDoorStatus 1"}}
+/tellraw @p {"text":"[DESBLOQUEAR MUNDO 9]","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World9ProximityDoorStatus 1"}}
+/tellraw @p {"text":"[DESBLOQUEAR MUNDO 10]","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World10ProximityDoorStatus 1"}}
+/tellraw @p {"text":"[DESBLOQUEAR MUNDO 11]","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World11ProximityDoorStatus 1"}}
+/tellraw @p {"text":"[DESBLOQUEAR MUNDO 12]","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World12ProximityDoorStatus 1"}}
+
+
+
+
+#DIFFICULTY COLORS
+#1 star: #ffffff
+#2 stars: #f2eea5
+#3 stars: #f2a25c
+#4 stars: #f27349
+#5 stars: #b33d30
+
+#7 stars: #570000
+#8 stars: #4d1b54
