@@ -35,10 +35,20 @@
 
 /summon armor_stand -17.30 73.75 10.00 {Tags:["World1DoorInfoDummy1","World1DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Mundo 1","color":"#ffffff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
-/summon armor_stand -17.30 73.20 10.00 {Tags:["World1DoorInfoDummy2","World1DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"౨ৎ JUNGLA ETÉREA ৎ౨","color":"#7bbe3c","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -17.30 73.20 10.00 {Tags:["World1DoorInfoDummy2","World1DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"౨ৎ JUNGLA ETÉREA ৎ౨","color":"#7bbe3c","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -17.30 73.20 10.00 {Tags:["World1DoorInfoDummy2","World1DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"౨ৎ","color":"#7bbe3c","bold":true,"extra":[{"text":" ","color":"#75b23b"},{"text":"J","color":"#6fa93a"},{"text":"U","color":"#69a039"},{"text":"N","color":"#649737"},{"text":"G","color":"#5e8e36"},{"text":"L","color":"#588535"},{"text":"A","color":"#527c34"},{"text":" ","color":"#4c7333"},{"text":"E","color":"#466a32"},{"text":"T","color":"#407131"},{"text":"É","color":"#3b682f"},{"text":"R","color":"#355f2e"},{"text":"E","color":"#2f562d"},{"text":"A","color":"#294d2c"},{"text":" ","color":"#23542b"},{"text":"ৎ","color":"#207d29"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
 #tittle decos
-/summon armor_stand -17.30 73.45 10.00 {Tags:["World1DoorInfoDummy2DECO1","World1DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#7bbe3c"}',CustomNameVisible:1b,Rotation:[0f,0f]}
-/summon armor_stand -17.30 72.95 10.00 {Tags:["World1DoorInfoDummy2DECO2","World1DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#7bbe3c"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -17.30 73.45 10.00 {Tags:["World1DoorInfoDummy2DECO1","World1DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#7bbe3c"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -17.30 73.45 10.00 {Tags:["World1DoorInfoDummy2DECO1","World1DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇","color":"#7bbe3c","extra":[{"text":"─","color":"#75b23b"},{"text":"◇","color":"#6fa93a"},{"text":"──","color":"#69a039"},{"text":"◇","color":"#649737"},{"text":"─────","color":"#5e8e36"},{"text":"◇","color":"#588535"},{"text":"──","color":"#527c34"},{"text":"◇","color":"#4c7333"},{"text":"─","color":"#466a32"},{"text":"◇","color":"#207d29"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
+# /summon armor_stand -17.30 72.95 10.00 {Tags:["World1DoorInfoDummy2DECO2","World1DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#7bbe3c"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -17.30 72.95 10.00 {Tags:["World1DoorInfoDummy2DECO2","World1DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇","color":"#7bbe3c","extra":[{"text":"─","color":"#75b23b"},{"text":"◇","color":"#6fa93a"},{"text":"──","color":"#69a039"},{"text":"◇","color":"#649737"},{"text":"─────","color":"#5e8e36"},{"text":"◇","color":"#588535"},{"text":"──","color":"#527c34"},{"text":"◇","color":"#4c7333"},{"text":"─","color":"#466a32"},{"text":"◇","color":"#207d29"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
 
 /summon armor_stand -17.30 72.75 10.00 {Tags:["World1DoorInfoDummy3","World1DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Dificultad: 1✯","color":"#ffffff","italic":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
@@ -251,10 +261,21 @@
 
 /summon armor_stand -25.00 73.75 17.80 {Tags:["World2DoorInfoDummy1","World2DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Mundo 2","color":"#ffffff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
-/summon armor_stand -25.00 73.20 17.80 {Tags:["World2DoorInfoDummy2","World2DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"⟡ PANTÁNOS CRISTALINOS ⟡","color":"#eb79ff","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -25.00 73.20 17.80 {Tags:["World2DoorInfoDummy2","World2DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"⟡ PANTÁNOS CRISTALINOS ⟡","color":"#eb79ff","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 73.20 17.80 {Tags:["World2DoorInfoDummy2","World2DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"⟡","color":"#eb79ff","extra":[{"text":"P","color":"#ffffff"},{"text":"A","color":"#f1b3d9"},{"text":"N","color":"#f19fd4"},{"text":"T","color":"#f08bd0"},{"text":"Á","color":"#ef88cc"},{"text":"N","color":"#ee75c8"},{"text":"O","color":"#ed62c3"},{"text":"S","color":"#ffffff"},{"text":" ","color":"#eb79ff"},{"text":"C","color":"#ed62c3"},{"text":"R","color":"#ee75c8"},{"text":"I","color":"#ef88cc"},{"text":"S","color":"#ffffff"},{"text":"T","color":"#f08bd0"},{"text":"A","color":"#f19fd4"},{"text":"L","color":"#f1b3d9"},{"text":"I","color":"#f08bd0"},{"text":"N","color":"#ef88cc"},{"text":"O","color":"#ed62c3"},{"text":"S","color":"#ffffff"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
 #tittle decos
-/summon armor_stand -25.00 73.45 17.80 {Tags:["World2DoorInfoDummy2DECO1","World2DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#eb79ff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
-/summon armor_stand -25.00 72.95 17.80 {Tags:["World2DoorInfoDummy2DECO2","World2DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#eb79ff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -25.00 73.45 17.80 {Tags:["World2DoorInfoDummy2DECO1","World2DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#eb79ff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 73.45 17.80 {Tags:["World2DoorInfoDummy2DECO1","World2DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇","color":"#f1b3d9","extra":[{"text":"─","color":"#eb79ff"},{"text":"◇","color":"##f1b3d9"},{"text":"──","color":"#eb79ff"},{"text":"◇","color":"#f1b3d9"},{"text":"─────","color":"#eb79ff"},{"text":"◇","color":"#f1b3d9"},{"text":"──","color":"#eb79ff"},{"text":"◇","color":"#f1b3d9"},{"text":"─","color":"#eb79ff"},{"text":"◇","color":"#f1b3d9"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
+# /summon armor_stand -25.00 72.95 17.80 {Tags:["World2DoorInfoDummy2DECO2","World2DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#eb79ff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 72.95 17.80 {Tags:["World2DoorInfoDummy2DECO2","World2DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇","color":"#f1b3d9","extra":[{"text":"─","color":"#eb79ff"},{"text":"◇","color":"#f1b3d9"},{"text":"──","color":"#eb79ff"},{"text":"◇","color":"#f1b3d9"},{"text":"─────","color":"#eb79ff"},{"text":"◇","color":"#f1b3d9"},{"text":"──","color":"#eb79ff"},{"text":"◇","color":"#f1b3d9"},{"text":"─","color":"#eb79ff"},{"text":"◇","color":"#f1b3d9"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
 
 /summon armor_stand -25.00 72.75 17.80 {Tags:["World2DoorInfoDummy3","World2DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Dificultad: 1✯","color":"#ffffff","italic":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
@@ -475,10 +496,21 @@
 
 /summon armor_stand -32.80 73.75 10.00 {Tags:["World3DoorInfoDummy1","World3DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Mundo 3","color":"#ffffff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
-/summon armor_stand -32.80 73.20 10.00 {Tags:["World3DoorInfoDummy2","World3DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"‧⋆✩ YERMO NÉBULA ✩⋆‧","color":"#7570ff","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -32.80 73.20 10.00 {Tags:["World3DoorInfoDummy2","World3DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"‧⋆✩ YERMO NÉBULA ✩⋆‧","color":"#7570ff","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -32.80 73.20 10.00 {Tags:["World3DoorInfoDummy2","World3DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"‧","color":"#753dff","bold":true,"extra":[{"text":"⋆","color":"#794aff"},{"text":"✩","color":"#7b56ff"},{"text":" ","color":"#7e63ff"},{"text":"Y","color":"#806fff"},{"text":"E","color":"#837cff"},{"text":"R","color":"#8578ff"},{"text":"M","color":"#8774ff"},{"text":"O","color":"#8a70ff"},{"text":" ","color":"#8c6dff"},{"text":"N","color":"#8e69ff"},{"text":"É","color":"#9165ff"},{"text":"B","color":"#9361ff"},{"text":"U","color":"#955dff"},{"text":"L","color":"#9859ff"},{"text":"A","color":"#9a55ff"},{"text":" ","color":"#9d52ff"},{"text":"✩","color":"#9f4eff"},{"text":"⋆","color":"#a14aff"},{"text":"‧","color":"#a346ff"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
 #tittle decos
-/summon armor_stand -32.80 73.45 10.00 {Tags:["World3DoorInfoDummy2DECO1","World3DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#7570ff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
-/summon armor_stand -32.80 72.95 10.00 {Tags:["World3DoorInfoDummy2DECO2","World3DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#7570ff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -32.80 73.45 10.00 {Tags:["World3DoorInfoDummy2DECO1","World3DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#7570ff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -32.80 73.45 10.00 {Tags:["World3DoorInfoDummy2DECO1","World3DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇","color":"#753dff","extra":[{"text":"─","color":"#774aff"},{"text":"◇","color":"#7a56ff"},{"text":"──","color":"#7c63ff"},{"text":"◇","color":"#7f70ff"},{"text":"─────","color":"#817cff"},{"text":"◇","color":"#8378ff"},{"text":"──","color":"#8674ff"},{"text":"◇","color":"#8870ff"},{"text":"─","color":"#8b6dff"},{"text":"◇","color":"#8d69ff"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
+# /summon armor_stand -32.80 72.95 10.00 {Tags:["World3DoorInfoDummy2DECO2","World3DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#7570ff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -32.80 72.95 10.00 {Tags:["World3DoorInfoDummy2DECO2","World3DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇","color":"#753dff","extra":[{"text":"─","color":"#774aff"},{"text":"◇","color":"#7a56ff"},{"text":"──","color":"#7c63ff"},{"text":"◇","color":"#7f70ff"},{"text":"─────","color":"#817cff"},{"text":"◇","color":"#8378ff"},{"text":"──","color":"#8674ff"},{"text":"◇","color":"#8870ff"},{"text":"─","color":"#8b6dff"},{"text":"◇","color":"#8d69ff"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
 
 /summon armor_stand -32.80 72.75 10.00 {Tags:["World3DoorInfoDummy3","World3DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Dificultad: 2✯","color":"#f2eea5","italic":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
@@ -700,10 +732,20 @@
 
 /summon armor_stand -25.00 73.75 2.20 {Tags:["World4DoorInfoDummy1","World4DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Mundo 4","color":"#ffffff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
-/summon armor_stand -25.00 73.20 2.20 {Tags:["World4DoorInfoDummy2","World4DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"⊹ Fortaleza T.E.C.H. ⊹","color":"#70ebff","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -25.00 73.20 2.20 {Tags:["World4DoorInfoDummy2","World4DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"⊹ Fortaleza T.E.C.H. ⊹","color":"#70ebff","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 73.20 2.20 {Tags:["World4DoorInfoDummy2","World4DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"⊹","color":"#70ebff","extra":[{"text":"F","color":"#70ebff"},{"text":"o","color":"#6fd8ff"},{"text":"r","color":"#6bd1ff"},{"text":"t","color":"#69caff"},{"text":"a","color":"#66c3ff"},{"text":"l","color":"#64bcff"},{"text":"e","color":"#62b5ff"},{"text":"z","color":"#60aeff"},{"text":"a","color":"#5ea7ff"},{"text":" ","color":"#5c9fff"},{"text":"T","color":"#5a98ff"},{"text":"E","color":"#5891ff"},{"text":"C","color":"#568aff"},{"text":"H","color":"#5473ff"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
 #tittle decos
-/summon armor_stand -25.00 73.45 2.20 {Tags:["World4DoorInfoDummy2DECO1","World4DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#70ebff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
-/summon armor_stand -25.00 72.95 2.20 {Tags:["World4DoorInfoDummy2DECO2","World4DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#70ebff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -25.00 73.45 2.20 {Tags:["World4DoorInfoDummy2DECO1","World4DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#70ebff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 73.45 2.20 {Tags:["World4DoorInfoDummy2DECO1","World4DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇","color":"#70ebff","extra":[{"text":"─","color":"#6fd8ff"},{"text":"◇","color":"#6bd1ff"},{"text":"──","color":"#69caff"},{"text":"◇","color":"#66c3ff"},{"text":"─────","color":"#64bcff"},{"text":"◇","color":"#62b5ff"},{"text":"──","color":"#60aeff"},{"text":"◇","color":"#5ea7ff"},{"text":"─","color":"#5c9fff"},{"text":"◇","color":"#5a98ff"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
+# /summon armor_stand -25.00 72.95 2.20 {Tags:["World4DoorInfoDummy2DECO2","World4DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#70ebff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 72.95 2.20 {Tags:["World4DoorInfoDummy2DECO2","World4DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇","color":"#70ebff","extra":[{"text":"─","color":"#6fd8ff"},{"text":"◇","color":"#6bd1ff"},{"text":"──","color":"#69caff"},{"text":"◇","color":"#66c3ff"},{"text":"─────","color":"#64bcff"},{"text":"◇","color":"#62b5ff"},{"text":"──","color":"#60aeff"},{"text":"◇","color":"#5ea7ff"},{"text":"─","color":"#5c9fff"},{"text":"◇","color":"#5a98ff"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
 
 /summon armor_stand -25.00 72.75 2.20 {Tags:["World4DoorInfoDummy3","World4DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Dificultad: 2✯","color":"#f2eea5","italic":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
@@ -929,10 +971,23 @@
 
 /summon armor_stand -17.30 88.75 10.00 {Tags:["World5DoorInfoDummy1","World5DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Mundo 5","color":"#ffffff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
-/summon armor_stand -17.30 88.20 10.00 {Tags:["World5DoorInfoDummy2","World5DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"༻ HIPER-DESIERTOS ༺","color":"#ffef92","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -17.30 88.20 10.00 {Tags:["World5DoorInfoDummy2","World5DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"༻ HIPER-DESIERTOS ༺","color":"#ffef92","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -17.30 88.20 10.00 {Tags:["World5DoorInfoDummy2","World5DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"༻ ","color":"#ffef92","bold":true,"extra":[{"text":"H","color":"#ffef92"},{"text":"I","color":"#ffe89d"},{"text":"P","color":"#ffe4a7"},{"text":"E","color":"#ffdfa0"},{"text":"R","color":"#ffda9a"},{"text":"-","color":"#ffd693"},{"text":"D","color":"#ffd18d"},{"text":"E","color":"#ffcd88"},{"text":"S","color":"#ffc982"},{"text":"I","color":"#ffc47d"},{"text":"E","color":"#ffbf77"},{"text":"R","color":"#ffba72"},{"text":"T","color":"#ffb56d"},{"text":"O","color":"#ffb169"},{"text":"S","color":"#ffac64"},{"text":" ","color":"#ffef92"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
+
+
 #tittle decos
-/summon armor_stand -17.30 88.45 10.00 {Tags:["World5DoorInfoDummy2DECO1","World5DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#ffef92"}',CustomNameVisible:1b,Rotation:[0f,0f]}
-/summon armor_stand -17.30 87.95 10.00 {Tags:["World5DoorInfoDummy2DECO2","World5DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#ffef92"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -17.30 88.45 10.00 {Tags:["World5DoorInfoDummy2DECO1","World5DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#ffef92"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -17.30 88.45 10.00 {Tags:["World5DoorInfoDummy2DECO1","World5DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇","color":"#ffef92","extra":[{"text":"─","color":"#ffeaa0"},{"text":"◇","color":"#ffe5ad"},{"text":"─","color":"#ffe1b9"},{"text":"◇","color":"#ffddb9"},{"text":"─────","color":"#ffdfbd"},{"text":"◇","color":"#ffe1b9"},{"text":"──","color":"#ffe5ad"},{"text":"◇","color":"#ffeaa0"},{"text":"─","color":"#ffef92"},{"text":"◇","color":"#ffef92"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
+# /summon armor_stand -17.30 87.95 10.00 {Tags:["World5DoorInfoDummy2DECO2","World5DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#ffef92"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -17.30 87.95 10.00 {Tags:["World5DoorInfoDummy2DECO2","World5DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇","color":"#ffef92","extra":[{"text":"─","color":"#ffeaa0"},{"text":"◇","color":"#ffe5ad"},{"text":"─","color":"#ffe1b9"},{"text":"◇","color":"#ffddb9"},{"text":"─────","color":"#ffdfbd"},{"text":"◇","color":"#ffe1b9"},{"text":"──","color":"#ffe5ad"},{"text":"◇","color":"#ffeaa0"},{"text":"─","color":"#ffef92"},{"text":"◇","color":"#ffef92"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
 
 /summon armor_stand -17.30 87.75 10.00 {Tags:["World5DoorInfoDummy3","World5DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Dificultad: 2✯","color":"#f2eea5","italic":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
 # #death+
@@ -1173,10 +1228,20 @@
 
 /summon armor_stand -25.00 88.75 17.80 {Tags:["World6DoorInfoDummy1","World6DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Mundo 6","color":"#ffffff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
-/summon armor_stand -25.00 88.20 17.80 {Tags:["World6DoorInfoDummy2","World6DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"⚝ SANTUARIO DERRETIDO ⚝","color":"#b5271d","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -25.00 88.20 17.80 {Tags:["World6DoorInfoDummy2","World6DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"⚝ SANTUARIO DERRETIDO ⚝","color":"#b5271d","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 88.20 17.80 {Tags:["World6DoorInfoDummy2","World6DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"⚝ ","color":"#4d140d","bold":true,"extra":[{"text":"S","color":"#751d11"},{"text":"A","color":"#992711"},{"text":"N","color":"#b72c14"},{"text":"T","color":"#cc371a"},{"text":"U","color":"#d84422"},{"text":"A","color":"#e4522b"},{"text":"R","color":"#eb6236"},{"text":"I","color":"#e85c31"},{"text":"O","color":"#de4d25"},{"text":" ","color":"#b72c14"},{"text":"D","color":"#de4d25"},{"text":"E","color":"#e85c31"},{"text":"R","color":"#eb6236"},{"text":"R","color":"#e4522b"},{"text":"E","color":"#d84422"},{"text":"T","color":"#cc371a"},{"text":"I","color":"#b72c14"},{"text":"D","color":"#992711"},{"text":"O","color":"#751d11"},{"text":" ","color":"#4d140d"},{"text":"⚝","color":"#4d140d"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
 #tittle decos
-/summon armor_stand -25.00 88.45 17.80 {Tags:["World6DoorInfoDummy2DECO1","World6DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#b5271d"}',CustomNameVisible:1b,Rotation:[0f,0f]}
-/summon armor_stand -25.00 87.95 17.80 {Tags:["World6DoorInfoDummy2DECO2","World6DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#b5271d"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -25.00 88.45 17.80 {Tags:["World6DoorInfoDummy2DECO1","World6DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#b5271d"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 88.45 17.80 {Tags:["World6DoorInfoDummy2DECO1","World6DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇","color":"#4d140d","extra":[{"text":"─","color":"#751d11"},{"text":"◇","color":"#992711"},{"text":"──","color":"#b72c14"},{"text":"◇","color":"#cc371a"},{"text":"─────","color":"#d84422"},{"text":"◇","color":"#cc371a"},{"text":"──","color":"#b72c14"},{"text":"◇","color":"#992711"},{"text":"─","color":"#751d11"},{"text":"◇","color":"#4d140d"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
+# /summon armor_stand -25.00 87.95 17.80 {Tags:["World6DoorInfoDummy2DECO2","World6DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#b5271d"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 87.95 17.80 {Tags:["World6DoorInfoDummy2DECO2","World6DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇","color":"#4d140d","extra":[{"text":"─","color":"#751d11"},{"text":"◇","color":"#992711"},{"text":"──","color":"#b72c14"},{"text":"◇","color":"#cc371a"},{"text":"─────","color":"#d84422"},{"text":"◇","color":"#cc371a"},{"text":"──","color":"#b72c14"},{"text":"◇","color":"#992711"},{"text":"─","color":"#751d11"},{"text":"◇","color":"#4d140d"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
 
 /summon armor_stand -25.00 87.75 17.80 {Tags:["World6DoorInfoDummy3","World6DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Dificultad: 3✯","color":"#f2a25c","italic":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
@@ -1412,11 +1477,26 @@
 
 /summon armor_stand -32.80 88.75 10.00 {Tags:["World7DoorInfoDummy1","World7DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Mundo 7","color":"#ffffff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
-/summon armor_stand -32.80 88.20 10.00 {Tags:["World7DoorInfoDummy2","World7DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"ꊞꊞ PASILLOS DE LA ꊞꊞ","color":"#94b098","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
-/summon armor_stand -32.80 87.90 10.00 {Tags:["World7DoorInfoDummy2LINE2","World7DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"ꊞꊞ NULA REFLEXIÓN ꊞꊞ","color":"#94b098","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -32.80 88.20 10.00 {Tags:["World7DoorInfoDummy2","World7DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"ꊞꊞ PASILLOS DE LA ꊞꊞ","color":"#94b098","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -32.80 88.20 10.00 {Tags:["World7DoorInfoDummy2","World7DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"ꊞ","color":"#94b098","bold":true,"extra":[{"text":"ꊞ","color":"#a6b9a5"},{"text":" ","color":"#b7c3b3"},{"text":"P","color":"#c8cdc1"},{"text":"A","color":"#d9d7cf"},{"text":"S","color":"#e5eae3"},{"text":"I","color":"#eef1ec"},{"text":"L","color":"#f3f5f1"},{"text":"L","color":"#f7f8f6"},{"text":"O","color":"#fafafa"},{"text":"S","color":"#ffffff"},{"text":" ","color":"#fafafa"},{"text":"D","color":"#f7f8f6"},{"text":"E","color":"#f3f5f1"},{"text":" ","color":"#eef1ec"},{"text":"L","color":"#e5eae3"},{"text":"A","color":"#d9d7cf"},{"text":" ","color":"#c8cdc1"},{"text":"ꊞ","color":"#b7c3b3"},{"text":"ꊞ","color":"#a6b9a5"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
+# /summon armor_stand -32.80 87.90 10.00 {Tags:["World7DoorInfoDummy2LINE2","World7DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"ꊞꊞ NULA REFLEXIÓN ꊞꊞ","color":"#94b098","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -32.80 87.90 10.00 {Tags:["World7DoorInfoDummy2LINE2","World7DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"ꊞ","color":"#94b098","bold":true,"extra":[{"text":"ꊞ","color":"#a6b9a5"},{"text":" ","color":"#b7c3b3"},{"text":"N","color":"#c8cdc1"},{"text":"U","color":"#d9d7cf"},{"text":"L","color":"#e5eae3"},{"text":"A","color":"#eef1ec"},{"text":" ","color":"#f3f5f1"},{"text":"R","color":"#f7f8f6"},{"text":"E","color":"#fafafa"},{"text":"F","color":"#ffffff"},{"text":"L","color":"#fafafa"},{"text":"E","color":"#f7f8f6"},{"text":"X","color":"#f3f5f1"},{"text":"I","color":"#eef1ec"},{"text":"Ó","color":"#e5eae3"},{"text":"N","color":"#d9d7cf"},{"text":" ","color":"#c8cdc1"},{"text":"ꊞ","color":"#b7c3b3"},{"text":"ꊞ","color":"#a6b9a5"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
 #tittle decos 
-/summon armor_stand -32.80 88.45 10.00 {Tags:["World7DoorInfoDummy2DECO1","World7DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#94b098"}',CustomNameVisible:1b,Rotation:[0f,0f]}
-/summon armor_stand -32.80 87.65 10.00 {Tags:["World7DoorInfoDummy2DECO2","World7DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#94b098"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -32.80 88.45 10.00 {Tags:["World7DoorInfoDummy2DECO1","World7DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#94b098"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -32.80 88.45 10.00 {Tags:["World7DoorInfoDummy2DECO1","World7DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇","color":"#94b098","extra":[{"text":"─","color":"#a6b9a5"},{"text":"◇","color":"#b7c3b3"},{"text":"──","color":"#c8cdc1"},{"text":"◇","color":"#d9d7cf"},{"text":"─────","color":"#e5eae3"},{"text":"◇","color":"#d9d7cf"},{"text":"──","color":"#c8cdc1"},{"text":"◇","color":"#b7c3b3"},{"text":"─","color":"#a6b9a5"},{"text":"◇","color":"#94b098"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
+# /summon armor_stand -32.80 87.65 10.00 {Tags:["World7DoorInfoDummy2DECO2","World7DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──◇─────◇──◇─◇","color":"#94b098"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -32.80 87.65 10.00 {Tags:["World7DoorInfoDummy2DECO2","World7DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇","color":"#94b098","extra":[{"text":"─","color":"#a6b9a5"},{"text":"◇","color":"#b7c3b3"},{"text":"──","color":"#c8cdc1"},{"text":"◇","color":"#d9d7cf"},{"text":"─────","color":"#e5eae3"},{"text":"◇","color":"#d9d7cf"},{"text":"──","color":"#c8cdc1"},{"text":"◇","color":"#b7c3b3"},{"text":"─","color":"#a6b9a5"},{"text":"◇","color":"#94b098"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
 
 /summon armor_stand -32.80 87.40 10.00 {Tags:["World7DoorInfoDummy3","World7DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Dificultad: 3✯","color":"#f2a25c","italic":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
 # #death+
@@ -1587,14 +1667,14 @@
 #the color of the cyan neon light doesnt change, it's for the bridge, just that one line. the fill coordinates do change
 /fill -49 81 -2 -84 93 22 dustrial_decor:cyan_neon_light replace minecraft:cyan_wool
 #change for the colored lights
-/fill -49 81 -2 -84 93 22 dustrial_decor:yellow_neon_light replace minecraft:yellow_wool
+/fill -49 81 -2 -84 93 22 dustrial_decor:rainbow_neon_light replace minecraft:white_wool
 
 #--
 #CodeBlock 8.5
 #--
 /fill -49 81 -2 -84 93 22 minecraft:cyan_wool replace dustrial_decor:cyan_neon_light
 #change for the colored lights
-/fill -49 81 -2 -84 93 22 minecraft:yellow_wool replace dustrial_decor:yellow_neon_light
+/fill -49 81 -2 -84 93 22 minecraft:white_wool replace dustrial_decor:rainbow_neon_light
 
 #--
 #CodeBlock 9
@@ -1650,14 +1730,27 @@
 
 /summon armor_stand -25.00 88.75 2.20 {Tags:["World8DoorInfoDummy1","World8DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Mundo 8","color":"#ffffff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
-/summon armor_stand -25.00 88.20 2.20 {Tags:["World8DoorInfoDummy2","World8DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"🗡 CIUDADELA ASEDIADA 🗡","color":"#a45e00","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -25.00 88.20 2.20 {Tags:["World8DoorInfoDummy2","World8DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"🗡 CIUDADELA ASEDIADA 🗡","color":"#a45e00","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 88.20 2.20 {Tags:["World8DoorInfoDummy2","World8DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"🗡","color":"#6b3d00","bold":true,"extra":[{"text":" ","color":"#6f4000"},{"text":"C","color":"#734400"},{"text":"I","color":"#774700"},{"text":"U","color":"#7b4b00"},{"text":"D","color":"#7f4f00"},{"text":"A","color":"#835300"},{"text":"D","color":"#875700"},{"text":"E","color":"#8b5a00"},{"text":"L","color":"#8f5e00"},{"text":"A","color":"#936200"},{"text":" ","color":"#976600"},{"text":"A","color":"#9b6a00"},{"text":"S","color":"#9f6e00"},{"text":"E","color":"#a37200"},{"text":"D","color":"#a77600"},{"text":"I","color":"#ab7a00"},{"text":"A","color":"#af7e00"},{"text":"D","color":"#b38200"},{"text":"A","color":"#b78500"},{"text":" ","color":"#bb8900"},{"text":"🗡","color":"#a45e00"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
 #tittle decos
-/summon armor_stand -25.00 88.45 2.20 {Tags:["World8DoorInfoDummy2DECO1","World8DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──⚜─────⚜──◇─◇","color":"#a45e00"}',CustomNameVisible:1b,Rotation:[0f,0f]}
-/summon armor_stand -25.00 87.95 2.20 {Tags:["World8DoorInfoDummy2DECO2","World8DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──⚜─────⚜──◇─◇","color":"#a45e00"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -25.00 88.45 2.20 {Tags:["World8DoorInfoDummy2DECO1","World8DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──⚜─────⚜──◇─◇","color":"#a45e00"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 88.45 2.20 {Tags:["World8DoorInfoDummy2DECO1","World8DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇","color":"#6b3d00","extra":[{"text":"─","color":"#6f4000"},{"text":"◇","color":"#734400"},{"text":"──","color":"#774700"},{"text":"⚜","color":"#7b4b00"},{"text":"─────","color":"#7f4f00"},{"text":"⚜","color":"#835300"},{"text":"──","color":"#875700"},{"text":"◇","color":"#8b5a00"},{"text":"─","color":"#8f5e00"},{"text":"◇","color":"#a45e00"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
+# /summon armor_stand -25.00 87.95 2.20 {Tags:["World8DoorInfoDummy2DECO2","World8DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇──⚜─────⚜──◇─◇","color":"#a45e00"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 87.95 2.20 {Tags:["World8DoorInfoDummy2DECO2","World8DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇","color":"#6b3d00","extra":[{"text":"─","color":"#6f4000"},{"text":"◇","color":"#734400"},{"text":"──","color":"#774700"},{"text":"⚜","color":"#7b4b00"},{"text":"─────","color":"#7f4f00"},{"text":"⚜","color":"#835300"},{"text":"──","color":"#875700"},{"text":"◇","color":"#8b5a00"},{"text":"─","color":"#8f5e00"},{"text":"◇","color":"#a45e00"}]}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
 
 /summon armor_stand -25.00 87.75 2.20 {Tags:["World8DoorInfoDummy3","World8DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Dificultad: 3✯","color":"#ffffff","italic":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
 #death+
-/summon armor_stand -25.00 87.50 2.20 {Tags:["World8DoorInfoDummy3DP","World8DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"· • —– ༻ Muerte+ ༺ —– • ·","color":"#e64051","italic":true,"bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -25.00 87.50 2.20 {Tags:["World8DoorInfoDummy3DP","World8DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"· • —– ༻ Muerte+ ༺ —– • ·","color":"#e64051","italic":true,"bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 87.50 2.20 {Tags:["World8DoorInfoDummy3DP","World8DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'[{"text":"·","color":"#d22a3b","bold":true},{"text":" • ","color":"#e64051","bold":true},{"text":"—–","color":"#9d233a","bold":true},{"text":" ༻ ","color":"#e64051","bold":true,"italic":true},{"text":"M","color":"#f0606c","bold":true,"italic":true},{"text":"u","color":"#f37d7f","bold":true,"italic":true},{"text":"e","color":"#e64051","bold":true,"italic":true},{"text":"r","color":"#9d233a","bold":true,"italic":true},{"text":"t","color":"#f0606c","bold":true,"italic":true},{"text":"e","color":"#f37d7f","bold":true,"italic":true},{"text":"+","color":"#e64051","bold":true,"italic":true},{"text":" ","color":"#9d233a","bold":true},{"text":"༺","color":"#e64051","bold":true,"italic":true},{"text":" —– ","color":"#9d233a","bold":true},{"text":" • ·","color":"#d22a3b","bold":true}]',CustomNameVisible:1b,Rotation:[0f,0f]}
+
 
 /summon armor_stand -25.00 86.60 2.20 {Tags:["World8DoorInfoDummy4","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Mín. Req. para desbloqueo: 14✯","color":"#ffffff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
@@ -2140,17 +2233,33 @@
 
 /summon armor_stand -25.00 103.75 17.80 {Tags:["World10DoorInfoDummy1","World10DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"✧ Mundo 10 ✧","color":"#ffffff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
-/summon armor_stand -25.00 103.20 17.80 {Tags:["World10DoorInfoDummy2","World10DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"⚒ OBSIDIAN ANOMALY ⚒","color":"#ff7900","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
-୨ৎঌ
-/summon armor_stand -25.00 102.90 17.80 {Tags:["World10DoorInfoDummy2LINE2","World10DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"⚒ FORGE ⚒","color":"#ff7900","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -25.00 103.20 17.80 {Tags:["World10DoorInfoDummy2","World10DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"⚒ OBSIDIAN ANOMALY ⚒","color":"#ff7900","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 103.20 17.80 {Tags:["World10DoorInfoDummy2","World10DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'[{"text":"⚒ ","color":"#ff7900","bold":true},{"text":"F","color":"#ff6600","bold":true},{"text":"O","color":"#ff5500","bold":true},{"text":"R","color":"#ff4400","bold":true},{"text":"J","color":"#ff3300","bold":true},{"text":"A","color":"#ff2200","bold":true},{"text":" ","color":"#ff1100","bold":true},{"text":"D","color":"#ff0000","bold":true},{"text":"E","color":"#e60000","bold":true},{"text":" ","color":"#ff2200","bold":true},{"text":"A","color":"#ff5500","bold":true},{"text":"N","color":"#ff6600","bold":true},{"text":"O","color":"#ff7900","bold":true},{"text":"M","color":"#ff6600","bold":true},{"text":"A","color":"#ff3300","bold":true},{"text":"L","color":"#ff2200","bold":true},{"text":"Í","color":"#ff0000","bold":true},{"text":"A","color":"#ff2200","bold":true},{"text":"S","color":"#ff0000","bold":true},{"text":" ","color":"#ff2200","bold":true},{"text":"⚒","color":"#ff7900","bold":true}]',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
+# /summon armor_stand -25.00 102.90 17.80 {Tags:["World10DoorInfoDummy2LINE2","World10DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"აঌ ⚒ FORGE ⚒ ঌა","color":"#ff7900","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 102.90 17.80 {Tags:["World10DoorInfoDummy2LINE2","World10DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'[{"text":"ა","color":"#ff7900","bold":true},{"text":"ঌ","color":"#ff6600","bold":true},{"text":" ","color":"#ff5500","bold":true},{"text":"⚒","color":"#ff4400","bold":true},{"text":" ","color":"#ff3300","bold":true},{"text":"D","color":"#ff2200","bold":true},{"text":"E","color":"#ff1100","bold":true},{"text":" ","color":"#ff0000","bold":true},{"text":"O","color":"#e60000","bold":true},{"text":"B","color":"#ff2200","bold":true},{"text":"S","color":"#ff3300","bold":true},{"text":"I","color":"#ff4400","bold":true},{"text":"D","color":"#ff5500","bold":true},{"text":"I","color":"#ff6600","bold":true},{"text":"A","color":"#ff7900","bold":true},{"text":"N","color":"#ff6600","bold":true},{"text":"A","color":"#ff3300","bold":true},{"text":" ","color":"#ff2200","bold":true},{"text":"⚒","color":"#ff7900","bold":true},{"text":" ","color":"#ff7900","bold":true},{"text":"ঌ","color":"#ff4400","bold":true},{"text":"ა","color":"#ff2200","bold":true}]',CustomNameVisible:1b,Rotation:[0f,0f]}
+
 
 #tittle decos
-/summon armor_stand -25.00 103.45 17.80 {Tags:["World10DoorInfoDummy2DECO1","World10DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"ৎঌააঌააৎაঌა୨ააঌააঌა","color":"#ee7d17"}',CustomNameVisible:1b,Rotation:[0f,0f]}
-/summon armor_stand -25.00 102.65 17.80 {Tags:["World10DoorInfoDummy2DECO2","World10DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"აঌაঌაঌৎაঌა୨ঌაঌაঌ୨","color":"#ee7d17"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -25.00 103.45 17.80 {Tags:["World10DoorInfoDummy2DECO1","World10DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"ৎঌააঌააৎაঌა୨აঌააঌაঌა","color":"#ee7d17"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 103.45 17.80 {Tags:["World10DoorInfoDummy2DECO1","World10DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'[{"text":"ৎ","color":"#ff7900"},{"text":"ঌ","color":"#ff6600"},{"text":"ა","color":"#ff5500"},{"text":"ა","color":"#ff4400"},{"text":"ঌ","color":"#ff3300"},{"text":"ა","color":"#ff2200"},{"text":"ა","color":"#ff1100"},{"text":"୨","color":"#ff0000"},{"text":"ა","color":"#e60000"},{"text":"ঌ","color":"#ff2200"},{"text":"ა","color":"#ff1100"},{"text":"ঌ","color":"#ff0000"},{"text":"ა","color":"#ff3300"},{"text":"ঌ","color":"#ff4400"},{"text":"ა","color":"#ff5500"},{"text":"ঌ","color":"#ff6600"},{"text":"ა","color":"#ff7900"},{"text":"ঌ","color":"#ff4400"},{"text":"ა","color":"#ff5500"},{"text":"ঌ","color":"#ff6600"},{"text":"ა","color":"#ff7900"}]',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
+# /summon armor_stand -25.00 102.65 17.80 {Tags:["World10DoorInfoDummy2DECO2","World10DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"ঌაঌৎაঌაঌ୨ა","color":"#ee7d17"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 102.65 17.80 {Tags:["World10DoorInfoDummy2DECO2","World10DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'[{"text":"ঌ","color":"#ff7900"},{"text":"ა","color":"#ff6600"},{"text":"ঌ","color":"#ff5500"},{"text":"ৎ","color":"#ff4400"},{"text":"ა","color":"#ff3300"},{"text":"ঌ","color":"#ff2200"},{"text":"ა","color":"#ff1100"},{"text":"ঌ","color":"#ff0000"},{"text":"୨","color":"#e60000"},{"text":"ঌ","color":"#ff2200"},{"text":"ა","color":"#ff1100"},{"text":"ঌ","color":"#ff0000"},{"text":"ა","color":"#ff3300"},{"text":"ঌ","color":"#ff4400"},{"text":"ა","color":"#ff5500"},{"text":"ঌ","color":"#ff6600"},{"text":"ა","color":"#ff7900"}]',CustomNameVisible:1b,Rotation:[0f,0f]}
+
 
 /summon armor_stand -25.00 102.40 17.80 {Tags:["World10DoorInfoDummy3","World10DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Dificultad: 4✯","color":"#f27349","italic":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
 #death+
-/summon armor_stand -25.00 102.10 17.80 {Tags:["World10DoorInfoDummy3DP","World10DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"· • —– ༻ Muerte+ ༺ —– • ·","color":"#e64051","italic":true,"bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -25.00 102.10 17.80 {Tags:["World10DoorInfoDummy3DP","World10DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"· • —– ༻ Muerte+ ༺ —– • ·","color":"#e64051","italic":true,"bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 102.10 17.80 {Tags:["World10DoorInfoDummy3DP","World10DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'[{"text":"·","color":"#d22a3b","bold":true},{"text":" • ","color":"#e64051","bold":true},{"text":"—–","color":"#9d233a","bold":true},{"text":" ༻ ","color":"#e64051","bold":true,"italic":true},{"text":"M","color":"#f0606c","bold":true,"italic":true},{"text":"u","color":"#f37d7f","bold":true,"italic":true},{"text":"e","color":"#e64051","bold":true,"italic":true},{"text":"r","color":"#9d233a","bold":true,"italic":true},{"text":"t","color":"#f0606c","bold":true,"italic":true},{"text":"e","color":"#f37d7f","bold":true,"italic":true},{"text":"+","color":"#e64051","bold":true,"italic":true},{"text":" ","color":"#9d233a","bold":true},{"text":"༺","color":"#e64051","bold":true,"italic":true},{"text":" —– ","color":"#9d233a","bold":true},{"text":" • ·","color":"#d22a3b","bold":true}]',CustomNameVisible:1b,Rotation:[0f,0f]}
+
 
 /summon armor_stand -25.00 101.60 17.80 {Tags:["World10DoorInfoDummy4","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Mín. Req. para desbloqueo: 21✯","color":"#ffffff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
@@ -2362,11 +2471,11 @@
 
 /execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World11ProximityDoorStatus 0
 
--17.30 100.00 10.00 #trigger base reference
--17.30 103.75 10.00
--17.30 103.20 10.00
--17.30 102.75 10.00
--17.30 101.60 10.00
+-32.50 100.00 10.00 #trigger base reference
+-32.80 103.75 10.00
+-32.80 103.20 10.00
+-32.80 102.75 10.00
+-32.80 101.60 10.00
 
 -32.50 100.00 10.00 #trigger base reference
 -32.50 103.75 10.00
@@ -2377,92 +2486,96 @@
 #take the middle of the danger blocks as coords
 /summon armor_stand -32.50 100.00 10.00 {Tags:["World11ProximitytriggerDummy","WorldProximityGeneralTriggerDummy"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"World 11 Proximity Trigger"}',CustomNameVisible:0b}
 
-/summon armor_stand -32.50 103.75 10.00 {Tags:["World11DoorInfoDummy1","World11DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"✧ Mundo 11 ✧","color":"#ffffff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+/summon armor_stand -32.80 103.75 10.00 {Tags:["World11DoorInfoDummy1","World11DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"✧ Mundo 11 ✧","color":"#ffffff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
-# /summon armor_stand -32.50 103.20 10.00 {Tags:["World11DoorInfoDummy2","World11DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"✮ TORMENTA CELESTIAL ✮","color":"#d452ff","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
-/summon armor_stand -32.50 103.20 10.00 {Tags:["World11DoorInfoDummy2","World11DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'[{"text":"✮","color":"#af4ff9","bold":true},{"text":" ","color":"#af4ff9"},{"text":"T","color":"#c94af9","bold":true},{"text":"O","color":"#d14bf9","bold":true},{"text":"R","color":"#d74af8","bold":true},{"text":"M","color":"#e14af6","bold":true},{"text":"E","color":"#e64af4","bold":true},{"text":"N","color":"#f04af2","bold":true},{"text":"T","color":"#f44af1","bold":true},{"text":"A","color":"#d452ff","bold":true},{"text":" ","color":"#d452ff"},{"text":"C","color":"#f44af1","bold":true},{"text":"E","color":"#f04af2","bold":true},{"text":"L","color":"#e64af4","bold":true},{"text":"E","color":"#e14af6","bold":true},{"text":"S","color":"#d74af8","bold":true},{"text":"T","color":"#d14bf9","bold":true},{"text":"I","color":"#c94af9","bold":true},{"text":"A","color":"#d452ff","bold":true},{"text":"L","color":"#d452ff","bold":true},{"text":" ","color":"#d452ff"},{"text":"✮","color":"#af4ff9","bold":true}]',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -32.80 103.20 10.00 {Tags:["World11DoorInfoDummy2","World11DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"✮ TORMENTA CELESTIAL ✮","color":"#d452ff","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -32.80 103.20 10.00 {Tags:["World11DoorInfoDummy2","World11DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'[{"text":"✮","color":"#af4ff9","bold":true},{"text":" ","color":"#af4ff9"},{"text":"T","color":"#e066f9","bold":true},{"text":"O","color":"#e66bf9","bold":true},{"text":"R","color":"#f04af2","bold":true},{"text":"M","color":"#f64cf4","bold":true},{"text":"E","color":"#f94af1","bold":true},{"text":"N","color":"#f84af1","bold":true},{"text":"T","color":"#f44af1","bold":true},{"text":"A","color":"#f452ff","bold":true},{"text":" ","color":"#f452ff"},{"text":"C","color":"#f44af1","bold":true},{"text":"E","color":"#f04af2","bold":true},{"text":"L","color":"#e64af4","bold":true},{"text":"E","color":"#f64cf4","bold":true},{"text":"S","color":"#f94af1","bold":true},{"text":"T","color":"#f04af2","bold":true},{"text":"I","color":"#e66bf9","bold":true},{"text":"A","color":"#f452ff","bold":true},{"text":"L","color":"#f452ff","bold":true},{"text":" ","color":"#f452ff"},{"text":"✮","color":"#af4ff9","bold":true}]',CustomNameVisible:1b,Rotation:[0f,0f]}
 
 
 #tittle decos
-# /summon armor_stand -32.50 103.45 10.00 {Tags:["World11DoorInfoDummy2DECO1","World11DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇─˖⋆˖⁺‧₊☽◯☾₊‧⁺˖⋆˖─◇─◇","color":"#bf4ff7"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -32.80 103.45 10.00 {Tags:["World11DoorInfoDummy2DECO1","World11DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇─˖⋆˖⁺‧₊☽◯☾₊‧⁺˖⋆˖─◇─◇","color":"#bf4ff7"}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
-/summon armor_stand -32.50 103.45 10.00 {Tags:["World11DoorInfoDummy2DECO1","World11DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'[{"text":"◇","color":"#af4ff9","bold":true},{"text":"─","color":"#c94af9"},{"text":"◇","color":"#d14bf9","bold":true},{"text":"─","color":"#d74af8"},{"text":"˖","color":"#e14af6"},{"text":"⋆","color":"#e64af4","bold":true},{"text":"˖","color":"#f04af2"},{"text":"˖","color":"#f44af1"},{"text":"⁺","color":"#d452ff","bold":true},{"text":"‧","color":"#d452ff"},{"text":"₊","color":"#d452ff","bold":true},{"text":"☽","color":"#d452ff","bold":true},{"text":"◯","color":"#f44af1"},{"text":"☾","color":"#f04af2"},{"text":"₊","color":"#e64af4"},{"text":"‧","color":"#e14af6"},{"text":"⁺","color":"#d74af8"},{"text":"˖","color":"#d14bf9"},{"text":"⋆","color":"#c94af9"},{"text":"˖","color":"#af4ff9"},{"text":"─","color":"#af4ff9"},{"text":"◇","color":"#af4ff9","bold":true},{"text":"─","color":"#af4ff9"},{"text":"◇","color":"#af4ff9"}]',CustomNameVisible:1b,Rotation:[0f,0f]}
-
-
-# /summon armor_stand -32.50 102.95 10.00 {Tags:["World11DoorInfoDummy2DECO2","World11DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇─˖⋆˖⁺‧₊☽◯☾₊‧⁺˖⋆˖─◇─◇","color":"#bf4ff7"}',CustomNameVisible:1b,Rotation:[0f,0f]}
-
-/summon armor_stand -32.50 102.95 10.00 {Tags:["World11DoorInfoDummy2DECO2","World11DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'[{"text":"◇","color":"#af4ff9","bold":true},{"text":"─","color":"#c94af9"},{"text":"◇","color":"#d14bf9","bold":true},{"text":"─","color":"#d74af8"},{"text":"˖","color":"#e14af6"},{"text":"⋆","color":"#e64af4","bold":true},{"text":"˖","color":"#f04af2"},{"text":"˖","color":"#f44af1"},{"text":"⁺","color":"#d452ff","bold":true},{"text":"‧","color":"#d452ff"},{"text":"₊","color":"#d452ff","bold":true},{"text":"☽","color":"#d452ff","bold":true},{"text":"◯","color":"#f44af1"},{"text":"☾","color":"#f04af2"},{"text":"₊","color":"#e64af4"},{"text":"‧","color":"#e14af6"},{"text":"⁺","color":"#d74af8"},{"text":"˖","color":"#d14bf9"},{"text":"⋆","color":"#c94af9"},{"text":"˖","color":"#af4ff9"},{"text":"─","color":"#af4ff9"},{"text":"◇","color":"#af4ff9","bold":true},{"text":"─","color":"#af4ff9"},{"text":"◇","color":"#af4ff9"}]',CustomNameVisible:1b,Rotation:[0f,0f]}
+/summon armor_stand -32.80 103.45 10.00 {Tags:["World11DoorInfoDummy2DECO1","World11DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'[{"text":"◇","color":"#af4ff9","bold":true},{"text":"─","color":"#c94af9"},{"text":"◇","color":"#d14bf9","bold":true},{"text":"─","color":"#d74af8"},{"text":"˖","color":"#e14af6"},{"text":"⋆","color":"#e64af4","bold":true},{"text":"˖","color":"#f04af2"},{"text":"˖","color":"#f44af1"},{"text":"⁺","color":"#d452ff","bold":true},{"text":"‧","color":"#d452ff"},{"text":"₊","color":"#d452ff","bold":true},{"text":"☽","color":"#d452ff","bold":true},{"text":"◯","color":"#f44af1"},{"text":"☾","color":"#f04af2"},{"text":"₊","color":"#e64af4"},{"text":"‧","color":"#e14af6"},{"text":"⁺","color":"#d74af8"},{"text":"˖","color":"#d14bf9"},{"text":"⋆","color":"#c94af9"},{"text":"˖","color":"#af4ff9"},{"text":"─","color":"#af4ff9"},{"text":"◇","color":"#af4ff9","bold":true},{"text":"─","color":"#af4ff9"},{"text":"◇","color":"#af4ff9"}]',CustomNameVisible:1b,Rotation:[0f,0f]}
 
 
-/summon armor_stand -32.50 102.75 10.00 {Tags:["World11DoorInfoDummy3","World11DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Dificultad: 5✯","color":"#b33d30","italic":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -32.80 102.95 10.00 {Tags:["World11DoorInfoDummy2DECO2","World11DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"◇─◇─˖⋆˖⁺‧₊☽◯☾₊‧⁺˖⋆˖─◇─◇","color":"#bf4ff7"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -32.80 102.95 10.00 {Tags:["World11DoorInfoDummy2DECO2","World11DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'[{"text":"◇","color":"#af4ff9","bold":true},{"text":"─","color":"#c94af9"},{"text":"◇","color":"#d14bf9","bold":true},{"text":"─","color":"#d74af8"},{"text":"˖","color":"#e14af6"},{"text":"⋆","color":"#e64af4","bold":true},{"text":"˖","color":"#f04af2"},{"text":"˖","color":"#f44af1"},{"text":"⁺","color":"#d452ff","bold":true},{"text":"‧","color":"#d452ff"},{"text":"₊","color":"#d452ff","bold":true},{"text":"☽","color":"#d452ff","bold":true},{"text":"◯","color":"#f44af1"},{"text":"☾","color":"#f04af2"},{"text":"₊","color":"#e64af4"},{"text":"‧","color":"#e14af6"},{"text":"⁺","color":"#d74af8"},{"text":"˖","color":"#d14bf9"},{"text":"⋆","color":"#c94af9"},{"text":"˖","color":"#af4ff9"},{"text":"─","color":"#af4ff9"},{"text":"◇","color":"#af4ff9","bold":true},{"text":"─","color":"#af4ff9"},{"text":"◇","color":"#af4ff9"}]',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
+/summon armor_stand -32.80 102.75 10.00 {Tags:["World11DoorInfoDummy3","World11DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Dificultad: 5✯","color":"#b33d30","italic":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
 #death+
-/summon armor_stand -32.50 102.50 10.00 {Tags:["World11DoorInfoDummy3DP","World11DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"· • —– ༻ Muerte+ ༺ —– • ·","color":"#e64051","italic":true,"bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+# /summon armor_stand -32.80 102.50 10.00 {Tags:["World11DoorInfoDummy3DP","World11DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"· • —– ༻ Muerte+ ༺ —– • ·","color":"#e64051","italic":true,"bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
-/summon armor_stand -32.50 101.60 10.00 {Tags:["World11DoorInfoDummy4","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Mín. Req. para desbloqueo: 25✯","color":"#ffffff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+/summon armor_stand -32.80 102.50 10.00 {Tags:["World11DoorInfoDummy3DP","World11DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'[{"text":"·","color":"#d22a3b","bold":true},{"text":" • ","color":"#e64051","bold":true},{"text":"—–","color":"#9d233a","bold":true},{"text":" ༻ ","color":"#e64051","bold":true,"italic":true},{"text":"M","color":"#f0606c","bold":true,"italic":true},{"text":"u","color":"#f37d7f","bold":true,"italic":true},{"text":"e","color":"#e64051","bold":true,"italic":true},{"text":"r","color":"#9d233a","bold":true,"italic":true},{"text":"t","color":"#f0606c","bold":true,"italic":true},{"text":"e","color":"#f37d7f","bold":true,"italic":true},{"text":"+","color":"#e64051","bold":true,"italic":true},{"text":" ","color":"#9d233a","bold":true},{"text":"༺","color":"#e64051","bold":true,"italic":true},{"text":" —– ","color":"#9d233a","bold":true},{"text":" • ·","color":"#d22a3b","bold":true}]',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
+/summon armor_stand -32.80 101.60 10.00 {Tags:["World11DoorInfoDummy4","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Mín. Req. para desbloqueo: 25✯","color":"#ffffff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
 #--
 #CodeBlock 1
 #--
-/execute as @e[tag=World10ProximitytriggerDummy] at @s if entity @p[distance=..8] run execute as @e[tag=LobbyHappiestDummy2] if score @s World10DoorTextTimer >= @s AuxNumber30 run scoreboard players set @s World10DoorTextTimer 0
+/execute as @e[tag=World11ProximitytriggerDummy] at @s if entity @p[distance=..8] run execute as @e[tag=LobbyHappiestDummy2] if score @s World11DoorTextTimer >= @s AuxNumber30 run scoreboard players set @s World11DoorTextTimer 0
 #in this one next code line, from world 4 to 10 just change the coordinates by removing 1 from z axis
-/execute as @e[tag=World10ProximitytriggerDummy] at @s if entity @p[distance=..8] unless entity @e[tag=World10DoorInfoDummy5, distance=..3] run execute as @e[tag=LobbyHappiestDummy2] if score @s StarsCollected < @s AuxNumber21 run setblock 4 -52 14 minecraft:redstone_block
+/execute as @e[tag=World11ProximitytriggerDummy] at @s if entity @p[distance=..8] unless entity @e[tag=World11DoorInfoDummy5, distance=..3] run execute as @e[tag=LobbyHappiestDummy2] if score @s StarsCollected < @s AuxNumber25 run setblock 7 -52 14 minecraft:redstone_block
 #in this one next code line, from world 4 to 10 just change the coordinates by removing 1 from z axis
-/setblock 4 -52 14 air
+/setblock 7 -52 14 air
 #in this one next code line, from world 4 to 10 just change the coordinates by removing 1 from z axis
-/execute as @e[tag=World10ProximitytriggerDummy] at @s if entity @p[distance=..8] unless entity @e[tag=World10DoorInfoDummy8, distance=..3] run execute as @e[tag=LobbyHappiestDummy2] if score @s StarsCollected >= @s AuxNumber21 run setblock 4 -60 14 minecraft:redstone_block
+/execute as @e[tag=World11ProximitytriggerDummy] at @s if entity @p[distance=..8] unless entity @e[tag=World11DoorInfoDummy8, distance=..3] run execute as @e[tag=LobbyHappiestDummy2] if score @s StarsCollected >= @s AuxNumber25 run setblock 7 -60 14 minecraft:redstone_block
 #in this one next code line, from world 4 to 10 just change the coordinates by removing 1 from z axis
-/setblock 4 -60 14 air
+/setblock 7 -60 14 air
 
-/execute as @e[tag=World10ProximitytriggerDummy] at @s if entity @p[distance=..8] run execute as @e[tag=LobbyHappiestDummy2] if score @s World10ProximityDoorStatus matches 0 run scoreboard players add @s World10DoorTextTimer 1
+/execute as @e[tag=World11ProximitytriggerDummy] at @s if entity @p[distance=..8] run execute as @e[tag=LobbyHappiestDummy2] if score @s World11ProximityDoorStatus matches 0 run scoreboard players add @s World11DoorTextTimer 1
 
-/execute as @e[tag=LobbyHappiestDummy2] if score @s World10ProximityDoorStatus matches 0 if score @s World10DoorTextTimer < @s AuxNumber15 run execute as @e[tag=World10DoorInfoGroup2] run data merge entity @s {CustomNameVisible:0b}
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World11ProximityDoorStatus matches 0 if score @s World11DoorTextTimer < @s AuxNumber15 run execute as @e[tag=World11DoorInfoGroup2] run data merge entity @s {CustomNameVisible:0b}
 
-/execute as @e[tag=LobbyHappiestDummy2] if score @s World10ProximityDoorStatus matches 0 if score @s World10DoorTextTimer > @s AuxNumber15 run execute as @e[tag=World10DoorInfoGroup2] run data merge entity @s {CustomNameVisible:1b}
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World11ProximityDoorStatus matches 0 if score @s World11DoorTextTimer > @s AuxNumber15 run execute as @e[tag=World11DoorInfoGroup2] run data merge entity @s {CustomNameVisible:1b}
 
-/execute as @e[tag=LobbyHappiestDummy2] if score @s World10ProximityDoorStatus matches 0 if score @s World10DoorTextTimer = @s AuxNumber15 run execute at @e[tag=World10ProximitytriggerDummy] if entity @e[tag=World10DoorInfoDummy5, distance=..3] run playsound alexsmobs:enderiophage_squish master @a[distance=..5] ~ ~ ~ 0.8 1
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World11ProximityDoorStatus matches 0 if score @s World11DoorTextTimer = @s AuxNumber15 run execute at @e[tag=World11ProximitytriggerDummy] if entity @e[tag=World11DoorInfoDummy5, distance=..3] run playsound alexsmobs:enderiophage_squish master @a[distance=..5] ~ ~ ~ 0.8 1
 
-/execute as @e[tag=LobbyHappiestDummy2] if score @s World10ProximityDoorStatus matches 0 if score @s World10DoorTextTimer = @s AuxNumber15 run execute at @e[tag=World10ProximitytriggerDummy] if entity @e[tag=World10DoorInfoDummy8, distance=..3] run playsound spartanweaponry:throwing_weapon_loyalty_return master @a[distance=..5] ~ ~ ~ 0.8 2
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World11ProximityDoorStatus matches 0 if score @s World11DoorTextTimer = @s AuxNumber15 run execute at @e[tag=World11ProximitytriggerDummy] if entity @e[tag=World11DoorInfoDummy8, distance=..3] run playsound spartanweaponry:throwing_weapon_loyalty_return master @a[distance=..5] ~ ~ ~ 0.8 2
 
-/execute as @e[tag=LobbyHappiestDummy2] if score @s World10ProximityDoorStatus matches 1 run execute as @e[tag=World10DoorInfoGroup2] run data merge entity @s {CustomNameVisible:0b}
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World11ProximityDoorStatus matches 1 run execute as @e[tag=World11DoorInfoGroup2] run data merge entity @s {CustomNameVisible:0b}
 
-/execute as @e[tag=LobbyHappiestDummy2] if score @s World10ProximityDoorStatus matches 1 run execute as @e[tag=World10DoorInfoDummy4] run data merge entity @s {CustomNameVisible:0b}
-#coordinates here are form the lil block text check, or if youre on world4 to world 12 just ~ ~ ~-1 those coords:
-/execute as @e[tag=World10ProximitytriggerDummy] at @s if entity @p[distance=..8] run execute as @e[tag=LobbyHappiestDummy2] if score @s StarsCollected >= @s AuxNumber21 if score @s World10ProximityDoorStatus matches 0 if score @s World10DoorTextTimer matches 15 run setblock 5 -60 14 minecraft:redstone_block
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World11ProximityDoorStatus matches 1 run execute as @e[tag=World11DoorInfoDummy4] run data merge entity @s {CustomNameVisible:0b}
+#coordinates here are form the lil block text check, or if youre on world4 to world 10 just ~ ~ ~-1 those coords:
+/execute as @e[tag=World11ProximitytriggerDummy] at @s if entity @p[distance=..8] run execute as @e[tag=LobbyHappiestDummy2] if score @s StarsCollected >= @s AuxNumber25 if score @s World11ProximityDoorStatus matches 0 if score @s World11DoorTextTimer matches 15 run setblock 8 -60 14 minecraft:redstone_block
 
-/execute as @e[tag=LobbyHappiestDummy2] if score @s World10ProximityDoorStatus matches 1 run setblock 5 -60 14 air
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World11ProximityDoorStatus matches 1 run setblock 8 -60 14 air
 
-/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount matches 320 run execute at @e[tag=World10ProximitytriggerDummy] run playsound scalinghealth:heart_crystal_use master @a[distance=..8] ~ ~ ~ 1 0.5
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount matches 320 run execute at @e[tag=World11ProximitytriggerDummy] run playsound scalinghealth:heart_crystal_use master @a[distance=..8] ~ ~ ~ 1 0.5
 
 #remove glass door
-/fill -24 100 18 -27 104 18 air replace minecraft:light_gray_stained_glass
+/fill -34 100 11 -34 104 8 air replace minecraft:light_gray_stained_glass
 #coordinates are on the very middle of the glass door and 2 blocks above it
-/particle alexsmobs:worm_portal -25.00 102 18.50 0 0 0 0.5 15
+/particle alexsmobs:worm_portal -33.50 102.00 10.00 0 0 0 0.5 15
 
 #--
 #CodeBlock 2
 #--
-/kill @e[tag=World10DoorInfoGroup2]
+/kill @e[tag=World11DoorInfoGroup2]
 
--17.50 101.10 10.00
--17.50 100.75 10.00
--17.50 100.50 10.00
+-32.80 101.10 10.00
+-32.80 100.75 10.00
+-32.80 100.50 10.00
 
 -25.00 101.10 17.80
 -25.00 100.75 17.80
 -25.00 100.50 17.80
 
-/summon armor_stand -25.00 101.10 17.80 {Tags:["World10DoorInfoDummy6","World10DoorInfoGroup2","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Requisitos cumplidos!","color":"#6ee524"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+/summon armor_stand -32.80 101.10 10.00 {Tags:["World11DoorInfoDummy6","World11DoorInfoGroup2","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Requisitos cumplidos!","color":"#6ee524"}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
-/summon armor_stand -25.00 100.75 17.80 {Tags:["World10DoorInfoDummy7","World10DoorInfoGroup2","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Haz click en la opción para","color":"#6ee524"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+/summon armor_stand -32.80 100.75 10.00 {Tags:["World11DoorInfoDummy7","World11DoorInfoGroup2","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Haz click en la opción para","color":"#6ee524"}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
-/summon armor_stand -25.00 100.50 17.80 {Tags:["World10DoorInfoDummy8","World10DoorInfoGroup2","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"abrir esta puerta...","color":"#6ee524"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+/summon armor_stand -32.80 100.50 10.00 {Tags:["World11DoorInfoDummy8","World11DoorInfoGroup2","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"abrir esta puerta...","color":"#6ee524"}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
 #--
 #CodeBlock 2.5
 #--
-/kill @e[tag=World10DoorInfoGroup2]
+/kill @e[tag=World11DoorInfoGroup2]
 
-/summon armor_stand -25.00 101.10 17.80 {Tags:["World10DoorInfoDummy5","World10DoorInfoGroup2","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Recursos insuficientes...","color":"#cf3b3b"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+/summon armor_stand -32.80 101.10 10.00 {Tags:["World11DoorInfoDummy5","World11DoorInfoGroup2","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Recursos insuficientes...","color":"#cf3b3b"}',CustomNameVisible:1b,Rotation:[0f,0f]}
 
 #--
 #CodeBlock 2.5.5 #THIS ONE CODE BLOCK SECTION IS FINISHED
@@ -2472,64 +2585,64 @@
 #--
 #CodeBlock 3
 #--
-/execute as @e[tag=World10ProximitytriggerDummy] at @s if entity @p[distance=8..] run execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World10DoorTextTimer 0
+/execute as @e[tag=World11ProximitytriggerDummy] at @s if entity @p[distance=8..] run execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World11DoorTextTimer 0
 
-/execute as @e[tag=World10ProximitytriggerDummy] at @s if entity @p[distance=14..] run execute as @e[tag=World10DoorInfoGroup1] run data merge entity @s {CustomNameVisible:0b}
+/execute as @e[tag=World11ProximitytriggerDummy] at @s if entity @p[distance=14..] run execute as @e[tag=World11DoorInfoGroup1] run data merge entity @s {CustomNameVisible:0b}
 
-/execute as @e[tag=World10ProximitytriggerDummy] at @s if entity @p[distance=14..] run execute as @e[tag=World10DoorInfoDummy4] run data merge entity @s {CustomNameVisible:0b}
+/execute as @e[tag=World11ProximitytriggerDummy] at @s if entity @p[distance=14..] run execute as @e[tag=World11DoorInfoDummy4] run data merge entity @s {CustomNameVisible:0b}
 
-/execute as @e[tag=World10ProximitytriggerDummy] at @s if entity @p[distance=..14] run execute as @e[tag=World10DoorInfoGroup1] run data merge entity @s {CustomNameVisible:1b}
+/execute as @e[tag=World11ProximitytriggerDummy] at @s if entity @p[distance=..14] run execute as @e[tag=World11DoorInfoGroup1] run data merge entity @s {CustomNameVisible:1b}
 
-/execute as @e[tag=LobbyHappiestDummy2] if score @s World10ProximityDoorStatus matches 0 run execute as @e[tag=World10ProximitytriggerDummy] at @s if entity @p[distance=..14] run execute as @e[tag=World10DoorInfoDummy4] run data merge entity @s {CustomNameVisible:1b}
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World11ProximityDoorStatus matches 0 run execute as @e[tag=World11ProximitytriggerDummy] at @s if entity @p[distance=..14] run execute as @e[tag=World11DoorInfoDummy4] run data merge entity @s {CustomNameVisible:1b}
 
 #--
 #CodeBlock 4
 #--
-/execute as @e[tag=LobbyHappiestDummy2] if score @s World10ProximityDoorStatus matches 0 run scoreboard players add @s World10AuxToggle 1
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World11ProximityDoorStatus matches 0 run scoreboard players add @s World11AuxToggle 1
 
-/execute as @e[tag=LobbyHappiestDummy2] if score @s World10ProximityDoorStatus matches 0 if score @s World10AuxToggle >= @s AuxNumber90 run scoreboard players set @s World10AuxToggle 1
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World11ProximityDoorStatus matches 0 if score @s World11AuxToggle >= @s AuxNumber90 run scoreboard players set @s World11AuxToggle 1
 #solo en la linea siguiente, en las coordenadas usa las mismas pero solo reduce en 1 la z, osea ~ ~ ~-1
-/execute as @e[tag=LobbyHappiestDummy2] if score @s World10AuxToggle >= @s AuxNumber1 if score @s World10ProximityDoorStatus matches 1 run setblock 3 -63 9 minecraft:redstone_block
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World11AuxToggle >= @s AuxNumber1 if score @s World11ProximityDoorStatus matches 1 run setblock 3 -63 8 minecraft:redstone_block
 #solo en la linea siguiente, en las coordenadas usa las mismas pero solo reduce en 1 la z, osea ~ ~ ~-1
-/execute as @e[tag=LobbyHappiestDummy2] if score @s World10AuxToggle >= @s AuxNumber1 if score @s World10ProximityDoorStatus matches 1 run setblock 3 -63 9 minecraft:air
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World11AuxToggle >= @s AuxNumber1 if score @s World11ProximityDoorStatus matches 1 run setblock 3 -63 8 minecraft:air
 #Only the one following line doesn't change coordinates
-/execute as @e[tag=LobbyHappiestDummy2] if score @s World10AuxToggle >= @s AuxNumber1 if score @s World10ProximityDoorStatus matches 1 run data merge block -8 -60 22 {auto:1b}
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World11AuxToggle >= @s AuxNumber1 if score @s World11ProximityDoorStatus matches 1 run data merge block -8 -60 22 {auto:1b}
 
-/execute as @e[tag=LobbyHappiestDummy2] if score @s World10AuxToggle >= @s AuxNumber1 if score @s World10ProximityDoorStatus matches 1 run data merge block -5 -60 4 {auto:1b}
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World11AuxToggle >= @s AuxNumber1 if score @s World11ProximityDoorStatus matches 1 run data merge block -3 -60 4 {auto:1b}
 
-/execute as @e[tag=LobbyHappiestDummy2] if score @s World10AuxToggle >= @s AuxNumber1 if score @s World10ProximityDoorStatus matches 1 run scoreboard players set @s World10AuxToggle 0
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World11AuxToggle >= @s AuxNumber1 if score @s World11ProximityDoorStatus matches 1 run scoreboard players set @s World11AuxToggle 0
 #put coordinates of lil single block that asks for click or just ~ ~ ~-1 if youre from world4 to world10
-/execute as @e[tag=World10ProximitytriggerDummy] at @s if entity @p[distance=8..] run setblock 5 -60 14 minecraft:air
+/execute as @e[tag=World11ProximitytriggerDummy] at @s if entity @p[distance=8..] run setblock 8 -60 14 minecraft:air
 
 #--
 #CodeBlock 5
 #--
-/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount > @s AuxNumber0 if score @s PlatformActivationCount < @s AuxNumber150 run execute as @e[tag=World10LightStartingDummy1] at @s run tp @s ~ ~ ~0.25
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount > @s AuxNumber0 if score @s PlatformActivationCount < @s AuxNumber150 run execute as @e[tag=World11LightStartingDummy1] at @s run tp @s ~-0.25 ~ ~
 
-/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount > @s AuxNumber0 if score @s PlatformActivationCount < @s AuxNumber150 run execute as @e[tag=World10LightStartingDummy2] at @s run tp @s ~ ~ ~0.25
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount > @s AuxNumber0 if score @s PlatformActivationCount < @s AuxNumber150 run execute as @e[tag=World11LightStartingDummy2] at @s run tp @s ~-0.25 ~ ~
 
-/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber120 run kill @e[tag=World10LightStartingDummy1]
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber120 run kill @e[tag=World11LightStartingDummy1]
 
-/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber120 run kill @e[tag=World10LightStartingDummy2]
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber120 run kill @e[tag=World11LightStartingDummy2]
 #In the following one line just change the coordinates a bit. Subtract 1 from the z coord:
-/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber0 run setblock 3 -63 9 minecraft:redstone_block
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber0 run setblock 3 -63 8 minecraft:redstone_block
 #In the following one line just change the coordinates a bit. Subtract 1 from the z coord:
-/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber0 run setblock 3 -63 9 minecraft:air
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber0 run setblock 3 -63 8 minecraft:air
 #In the following one line just change the coordinates a bit. Subtract 1 from the z coord:
-/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber50 run setblock 3 -63 9 minecraft:redstone_block
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber50 run setblock 3 -63 8 minecraft:redstone_block
 #In the following one line just change the coordinates a bit. Subtract 1 from the z coord:
-/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber50 run setblock 3 -63 9 minecraft:air
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber50 run setblock 3 -63 8 minecraft:air
 
 #generative bridge dummy creation
-/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount matches 140 run setblock 1 -63 11 minecraft:redstone_block
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount matches 140 run setblock 0 -63 10 minecraft:redstone_block
 
-/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount matches 140 run setblock 1 -63 11 minecraft:air
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount matches 140 run setblock 0 -63 10 minecraft:air
 
-/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber120 run execute at @e[tag=World10ProximitytriggerDummy] run playsound minecraft:block.end_portal.spawn master @a[distance=..8] ~ ~ ~ 0.3 0.1
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber120 run execute at @e[tag=World11ProximitytriggerDummy] run playsound minecraft:block.end_portal.spawn master @a[distance=..8] ~ ~ ~ 0.3 0.1
 #this one next line doesnt change:
 /execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount matches 145 run data merge block -8 -60 18 {auto:1b}
 #self deactivate repetitive poweric code block
-/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount matches 350 run data merge block -5 -60 4 {auto:0b}
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount matches 350 run data merge block -3 -60 4 {auto:0b}
 #this one next line doesnt change:
 /execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount matches 350 run data merge block -8 -60 22 {auto:0b}
 
@@ -2537,9 +2650,9 @@
 
 /execute as @e[tag=LobbyHappiestDummy2] run scoreboard players remove @s PlatformActivationCount 1
 #lights
-/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber120 run execute at @e[tag=World10ProximitytriggerDummy] run setblock -4 -60 0 minecraft:redstone_block
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber120 run execute at @e[tag=World11ProximitytriggerDummy] run setblock -6 -60 0 minecraft:redstone_block
 
-/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber120 run execute at @e[tag=World10ProximitytriggerDummy] run setblock -4 -60 0 minecraft:air
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber120 run execute at @e[tag=World11ProximitytriggerDummy] run setblock -6 -60 0 minecraft:air
 
 #--
 #CodeBlock 6 #THIS ONE CODE BLOCK SECTION IS FINISHED
@@ -2560,16 +2673,16 @@
 #(the lights CodeBlock)
 #--
 #the color of the cyan neon light doesnt change, it's for the bridge, just that one line. the fill coordinates do change
-/fill -13 108 65 -38 95 34 dustrial_decor:cyan_neon_light replace minecraft:cyan_wool
+/fill -81 108 22 -51 95 -3 dustrial_decor:cyan_neon_light replace minecraft:cyan_wool
 #change for the colored lights
-/fill -13 108 65 -38 95 34 dustrial_decor:orange_neon_light replace minecraft:orange_wool
+/fill -81 108 22 -51 95 -3 dustrial_decor:purple_neon_light replace minecraft:purple_wool
 
 #--
 #CodeBlock 8.5
 #--
-/fill -13 108 65 -38 95 34 minecraft:cyan_wool replace dustrial_decor:cyan_neon_light
+/fill -81 108 22 -51 95 -3 minecraft:cyan_wool replace dustrial_decor:cyan_neon_light
 #change for the colored lights
-/fill -13 108 65 -38 95 34 minecraft:orange_wool replace dustrial_decor:orange_neon_light
+/fill -81 108 22 -51 95 -3 minecraft:purple_wool replace dustrial_decor:purple_neon_light
 
 #--
 #CodeBlock 9
@@ -2578,19 +2691,275 @@
 #no need to modifify the next one line:
 /execute as @e[tag=LobbyHappiestDummy2] run data merge block -8 -60 22 {auto:0b}
 #auto deactivation CodeBLock5 repetitive coords, you know
-/execute as @e[tag=LobbyHappiestDummy2] run data merge block -5 -60 4 {auto:0b}
+/execute as @e[tag=LobbyHappiestDummy2] run data merge block -3 -60 4 {auto:0b}
 
 /execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s PlatformActivationCount 0
 
-/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World10ProximityDoorStatus 0
+/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World11ProximityDoorStatus 0
 
-/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World10AuxToggle 1
+/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World11AuxToggle 1
 #remove the bridge
-/fill -26 99 18 -25 99 34 air
+/fill -34 99 9 -50 99 10 air
 #turn off lights
-/setblock -3 -60 0 minecraft:redstone_block
+/setblock -5 -60 0 minecraft:redstone_block
 
-/setblock -3 -60 0 minecraft:air
+/setblock -5 -60 0 minecraft:air
 #put the glass door back
-/clone 7 -59 21 4 -55 21 -27 100 18
+/clone 9 -59 17 9 -55 20 -34 100 8
+#--------
+
+
+
+
+#-----------
+# WORLD 12
+#-----------
+#SETUP CODE FOR WORLD12
+#-----------
+/scoreboard objectives add World12AuxToggle dummy
+
+/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World12AuxToggle 1
+
+/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World12ProximityDoorStatus 0
+
+-25.00 100.00 2.50 #trigger base reference
+-25.00 103.75 2.20
+-25.00 103.20 2.20
+-25.00 102.75 2.20
+-25.00 101.60 2.20
+
+-32.50 100.00 10.00 #trigger base reference
+-32.50 103.75 10.00
+-32.50 103.20 10.00
+-32.50 102.75 10.00
+-32.50 101.60 10.00
+
+#take the middle of the danger blocks as coords
+/summon armor_stand -25.00 100.00 2.50 {Tags:["World12ProximitytriggerDummy","WorldProximityGeneralTriggerDummy"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"World 12 Proximity Trigger"}',CustomNameVisible:0b}
+
+/summon armor_stand -25.00 103.75 2.20 {Tags:["World12DoorInfoDummy1","World12DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"✧ Mundo 12 ✧","color":"#ffffff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+# /summon armor_stand -25.00 103.20 2.20 {Tags:["World12DoorInfoDummy2","World12DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"｡˚ SANTUARIO DEL ˚｡","color":"#d452ff","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 103.20 2.20 {Tags:["World12DoorInfoDummy2","World12DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'[{"text":"｡˚","color":"#bfbfbf"},{"text":"Ｓ","color":"#a9a9a9","bold":true},{"text":"Ａ","color":"#c0c0c0","bold":true},{"text":"Ｎ","color":"#808080","italic":true},{"text":"Ｔ","color":"#696969","bold":true},{"text":"Ｕ","color":"#d3d3d3"},{"text":"Ａ","color":"#a8a8a8","bold":true},{"text":"Ｒ","color":"#989898","italic":true},{"text":"Ｉ","color":"#7f7f7f","bold":true},{"text":"Ｏ","color":"#c0c0c0"},{"text":"　","color":"#696969"},{"text":"Ｄ","color":"#c9c9c9","bold":true},{"text":"Ｅ","color":"#b0b0b0","italic":true},{"text":"Ｌ","color":"#8b8b8b"},{"text":"˚｡","color":"#dcdcdc"}]',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
+# /summon armor_stand -25.00 102.90 2.20 {Tags:["World12DoorInfoDummy2LINE2","World12DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"｡˚ FIN DEL MUNDO ˚｡","color":"#d452ff","bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 102.90 2.20 {Tags:["World12DoorInfoDummy2LINE2","World12DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'[{"text":"｡˚","color":"#bfbfbf"},{"text":"Ｆ","color":"#a9a9a9","bold":true},{"text":"Ｉ","color":"#c0c0c0","bold":true},{"text":"Ｎ","color":"#808080","italic":true},{"text":"　","color":"#696969"},{"text":"Ｄ","color":"#696969","bold":true},{"text":"Ｅ","color":"#d3d3d3"},{"text":"Ｌ","color":"#a8a8a8","bold":true},{"text":"　","color":"#696969"},{"text":"Ｍ","color":"#989898","bold":true},{"text":"Ｕ","color":"#7f7f7f","italic":true},{"text":"Ｎ","color":"#4f4f4f","bold":true},{"text":"Ｄ","color":"#6e6e6e"},{"text":"Ｏ","color":"#989898"},{"text":"˚｡","color":"#dcdcdc"}]',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
+tittle decos
+# /summon armor_stand -25.00 102.75 2.20 {Tags:["World12DoorInfoDummy2DECO1","World12DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"⟡─◇─⊰⟡⊱─·꘏·─⊰⟡⊱─◇─⟡","color":"#989898"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 103.45 2.20 {Tags:["World12DoorInfoDummy2DECO1","World12DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'[{"text":"⟡","color":"#b0b0b0"},{"text":"─","color":"#a8a8a8"},{"text":"◇","color":"#c0c0c0"},{"text":"─","color":"#a8a8a8"},{"text":"⊰","color":"#808080"},{"text":"⟡","color":"#989898"},{"text":"⊱","color":"#707070"},{"text":"─","color":"#b0b0b0"},{"text":"·","color":"#a0a0a0"},{"text":"꘏","color":"#6e6e6e"},{"text":"·","color":"#a0a0a0"},{"text":"─","color":"#b0b0b0"},{"text":"⊰","color":"#707070"},{"text":"⟡","color":"#989898"},{"text":"⊱","color":"#808080"},{"text":"─","color":"#a8a8a8"},{"text":"◇","color":"#c0c0c0"},{"text":"─","color":"#a8a8a8"},{"text":"⟡","color":"#b0b0b0"}]',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
+# /summon armor_stand -25.00 102.65 2.20 {Tags:["World12DoorInfoDummy2DECO2","World12DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"⟡─◇─⊰⟡⊱─·꘏·─⊰⟡⊱─◇─⟡","color":"#989898"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 102.65 2.20 {Tags:["World12DoorInfoDummy2DECO2","World12DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'[{"text":"⟡","color":"#b3b3b3"},{"text":"─","color":"#a9a9a9"},{"text":"◇","color":"#d3d3d3"},{"text":"─","color":"#a9a9a9"},{"text":"⊰","color":"#808080"},{"text":"⟡","color":"#a6a6a6"},{"text":"⊱","color":"#6e6e6e"},{"text":"─","color":"#b0b0b0"},{"text":"·","color":"#9e9e9e"},{"text":"꘏","color":"#5c5c5c"},{"text":"·","color":"#9e9e9e"},{"text":"─","color":"#b0b0b0"},{"text":"⊰","color":"#6e6e6e"},{"text":"⟡","color":"#a6a6a6"},{"text":"⊱","color":"#808080"},{"text":"─","color":"#a9a9a9"},{"text":"◇","color":"#d3d3d3"},{"text":"─","color":"#a9a9a9"},{"text":"⟡","color":"#b3b3b3"}]',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
+/summon armor_stand -25.00 102.45 2.20 {Tags:["World12DoorInfoDummy3","World12DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Dificultad: 5✯","color":"#b33d30","italic":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+# /summon armor_stand -25.00 102.50 2.20 {Tags:["World12DoorInfoDummy3DP","World12DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"• • ༻  Hiper-muerte+ ༺  • •","color":"#e64051","italic":true,"bold":true}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 102.20 2.20 {Tags:["World12DoorInfoDummy3DP","World12DoorInfoGroup1","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'[{"text":"• ","color":"#d22a3b","bold":true},{"text":"• ","color":"#e64051","bold":true},{"text":"༻ ","color":"#9d233a","bold":true,"italic":true},{"text":"H","color":"#f0606c","bold":true,"italic":true},{"text":"i","color":"#f37d7f","bold":true,"italic":true},{"text":"p","color":"#e64051","bold":true,"italic":true},{"text":"e","color":"#9d233a","bold":true,"italic":true},{"text":"r","color":"#f0606c","bold":true,"italic":true},{"text":"-","color":"#f37d7f","bold":true,"italic":true},{"text":"m","color":"#e64051","bold":true,"italic":true},{"text":"u","color":"#9d233a","bold":true,"italic":true},{"text":"e","color":"#f0606c","bold":true,"italic":true},{"text":"r","color":"#f37d7f","bold":true,"italic":true},{"text":"t","color":"#e64051","bold":true,"italic":true},{"text":"e","color":"#9d233a","bold":true,"italic":true},{"text":"+","color":"#f0606c","bold":true,"italic":true},{"text":" ","color":"#9d233a","bold":true},{"text":"༺ ","color":"#e64051","bold":true,"italic":true},{"text":"• ","color":"#d22a3b","bold":true},{"text":"•","color":"#e64051","bold":true}]',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+
+/summon armor_stand -25.00 101.60 2.20 {Tags:["World12DoorInfoDummy4","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Mín. Req. para desbloqueo: 30✯","color":"#ffffff"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+#--
+#CodeBlock 1
+#--
+/execute as @e[tag=World12ProximitytriggerDummy] at @s if entity @p[distance=..8] run execute as @e[tag=LobbyHappiestDummy2] if score @s World12DoorTextTimer >= @s AuxNumber30 run scoreboard players set @s World12DoorTextTimer 0
+#in this one next code line, from world 4 to 10 just change the coordinates by removing 1 from z axis
+/execute as @e[tag=World12ProximitytriggerDummy] at @s if entity @p[distance=..8] unless entity @e[tag=World12DoorInfoDummy5, distance=..3] run execute as @e[tag=LobbyHappiestDummy2] if score @s StarsCollected < @s AuxNumber30 run setblock 7 -52 15 minecraft:redstone_block
+#in this one next code line, from world 4 to 10 just change the coordinates by removing 1 from z axis
+/setblock 7 -52 15 air
+#in this one next code line, from world 4 to 10 just change the coordinates by removing 1 from z axis
+/execute as @e[tag=World12ProximitytriggerDummy] at @s if entity @p[distance=..8] unless entity @e[tag=World12DoorInfoDummy8, distance=..3] run execute as @e[tag=LobbyHappiestDummy2] if score @s StarsCollected >= @s AuxNumber30 run setblock 7 -60 15 minecraft:redstone_block
+#in this one next code line, from world 4 to 10 just change the coordinates by removing 1 from z axis
+/setblock 7 -60 15 air
+
+/execute as @e[tag=World12ProximitytriggerDummy] at @s if entity @p[distance=..8] run execute as @e[tag=LobbyHappiestDummy2] if score @s World12ProximityDoorStatus matches 0 run scoreboard players add @s World12DoorTextTimer 1
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World12ProximityDoorStatus matches 0 if score @s World12DoorTextTimer < @s AuxNumber15 run execute as @e[tag=World12DoorInfoGroup2] run data merge entity @s {CustomNameVisible:0b}
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World12ProximityDoorStatus matches 0 if score @s World12DoorTextTimer > @s AuxNumber15 run execute as @e[tag=World12DoorInfoGroup2] run data merge entity @s {CustomNameVisible:1b}
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World12ProximityDoorStatus matches 0 if score @s World12DoorTextTimer = @s AuxNumber15 run execute at @e[tag=World12ProximitytriggerDummy] if entity @e[tag=World12DoorInfoDummy5, distance=..3] run playsound alexsmobs:enderiophage_squish master @a[distance=..5] ~ ~ ~ 0.8 1
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World12ProximityDoorStatus matches 0 if score @s World12DoorTextTimer = @s AuxNumber15 run execute at @e[tag=World12ProximitytriggerDummy] if entity @e[tag=World12DoorInfoDummy8, distance=..3] run playsound spartanweaponry:throwing_weapon_loyalty_return master @a[distance=..5] ~ ~ ~ 0.8 2
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World12ProximityDoorStatus matches 1 run execute as @e[tag=World12DoorInfoGroup2] run data merge entity @s {CustomNameVisible:0b}
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World12ProximityDoorStatus matches 1 run execute as @e[tag=World12DoorInfoDummy4] run data merge entity @s {CustomNameVisible:0b}
+#coordinates here are form the lil block text check, or if youre on world4 to world 10 just ~ ~ ~-1 those coords:
+/execute as @e[tag=World12ProximitytriggerDummy] at @s if entity @p[distance=..8] run execute as @e[tag=LobbyHappiestDummy2] if score @s StarsCollected >= @s AuxNumber30 if score @s World12ProximityDoorStatus matches 0 if score @s World12DoorTextTimer matches 15 run setblock 8 -60 15 minecraft:redstone_block
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World12ProximityDoorStatus matches 1 run setblock 8 -60 15 air
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount matches 320 run execute at @e[tag=World12ProximitytriggerDummy] run playsound scalinghealth:heart_crystal_use master @a[distance=..8] ~ ~ ~ 1 0.5
+
+#remove glass door
+/fill -27 100 1 -24 104 1 air replace minecraft:light_gray_stained_glass
+#coordinates are on the very middle of the glass door and 2 blocks above it
+/particle alexsmobs:worm_portal -25.00 102.00 1.50 0 0 0 0.5 15
+
+#--
+#CodeBlock 2
+#--
+/kill @e[tag=World12DoorInfoGroup2]
+
+-25.00 101.10 2.50
+-25.00 100.75 2.50
+-25.00 100.50 2.50
+
+-25.00 101.10 17.80
+-25.00 100.75 17.80
+-25.00 100.50 17.80
+
+/summon armor_stand -25.00 101.10 2.20 {Tags:["World12DoorInfoDummy6","World12DoorInfoGroup2","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Requisitos cumplidos!","color":"#6ee524"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 100.75 2.20 {Tags:["World12DoorInfoDummy7","World12DoorInfoGroup2","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Haz click en la opción para","color":"#6ee524"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+/summon armor_stand -25.00 100.50 2.20 {Tags:["World12DoorInfoDummy8","World12DoorInfoGroup2","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"abrir esta puerta...","color":"#6ee524"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+#--
+#CodeBlock 2.5
+#--
+/kill @e[tag=World12DoorInfoGroup2]
+
+/summon armor_stand -25.00 101.10 2.20 {Tags:["World12DoorInfoDummy5","World12DoorInfoGroup2","WorldDoorAllInfo"],Invisible:1b,Marker:1b,NoGravity:1b,Invulnerable:1b,CustomName:'{"text":"Recursos insuficientes...","color":"#cf3b3b"}',CustomNameVisible:1b,Rotation:[0f,0f]}
+
+#--
+#CodeBlock 2.5.5 #THIS ONE CODE BLOCK SECTION IS FINISHED
+#--
+/tellraw @p {"text":"[DESBLOQUEAR MUNDO 4]","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World4ProximityDoorStatus 1"}}
+
+#--
+#CodeBlock 3
+#--
+/execute as @e[tag=World12ProximitytriggerDummy] at @s if entity @p[distance=8..] run execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World12DoorTextTimer 0
+
+/execute as @e[tag=World12ProximitytriggerDummy] at @s if entity @p[distance=14..] run execute as @e[tag=World12DoorInfoGroup1] run data merge entity @s {CustomNameVisible:0b}
+
+/execute as @e[tag=World12ProximitytriggerDummy] at @s if entity @p[distance=14..] run execute as @e[tag=World12DoorInfoDummy4] run data merge entity @s {CustomNameVisible:0b}
+
+/execute as @e[tag=World12ProximitytriggerDummy] at @s if entity @p[distance=..14] run execute as @e[tag=World12DoorInfoGroup1] run data merge entity @s {CustomNameVisible:1b}
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World12ProximityDoorStatus matches 0 run execute as @e[tag=World12ProximitytriggerDummy] at @s if entity @p[distance=..14] run execute as @e[tag=World12DoorInfoDummy4] run data merge entity @s {CustomNameVisible:1b}
+
+#--
+#CodeBlock 4
+#--
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World12ProximityDoorStatus matches 0 run scoreboard players add @s World12AuxToggle 1
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World12ProximityDoorStatus matches 0 if score @s World12AuxToggle >= @s AuxNumber90 run scoreboard players set @s World12AuxToggle 1
+#solo en la linea siguiente, en las coordenadas usa las mismas pero solo reduce en 1 la z, osea ~ ~ ~-1
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World12AuxToggle >= @s AuxNumber1 if score @s World12ProximityDoorStatus matches 1 run setblock 3 -63 7 minecraft:redstone_block
+#solo en la linea siguiente, en las coordenadas usa las mismas pero solo reduce en 1 la z, osea ~ ~ ~-1
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World12AuxToggle >= @s AuxNumber1 if score @s World12ProximityDoorStatus matches 1 run setblock 3 -63 7 minecraft:air
+#Only the one following line doesn't change coordinates
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World12AuxToggle >= @s AuxNumber1 if score @s World12ProximityDoorStatus matches 1 run data merge block -8 -60 22 {auto:1b}
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World12AuxToggle >= @s AuxNumber1 if score @s World12ProximityDoorStatus matches 1 run data merge block -1 -60 4 {auto:1b}
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s World12AuxToggle >= @s AuxNumber1 if score @s World12ProximityDoorStatus matches 1 run scoreboard players set @s World12AuxToggle 0
+#put coordinates of lil single block that asks for click or just ~ ~ ~-1 if youre from world4 to world10
+/execute as @e[tag=World12ProximitytriggerDummy] at @s if entity @p[distance=8..] run setblock 8 -60 15 minecraft:air
+
+#--
+#CodeBlock 5
+#--
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount > @s AuxNumber0 if score @s PlatformActivationCount < @s AuxNumber150 run execute as @e[tag=World12LightStartingDummy1] at @s run tp @s ~ ~ ~-0.25
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount > @s AuxNumber0 if score @s PlatformActivationCount < @s AuxNumber150 run execute as @e[tag=World12LightStartingDummy2] at @s run tp @s ~ ~ ~-0.25
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber120 run kill @e[tag=World12LightStartingDummy1]
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber120 run kill @e[tag=World12LightStartingDummy2]
+#In the following one line just change the coordinates a bit. Subtract 1 from the z coord:
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber0 run setblock 3 -63 7 minecraft:redstone_block
+#In the following one line just change the coordinates a bit. Subtract 1 from the z coord:
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber0 run setblock 3 -63 7 minecraft:air
+#In the following one line just change the coordinates a bit. Subtract 1 from the z coord:
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber50 run setblock 3 -63 7 minecraft:redstone_block
+#In the following one line just change the coordinates a bit. Subtract 1 from the z coord:
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber50 run setblock 3 -63 7 minecraft:air
+
+#generative bridge dummy creation
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount matches 140 run setblock 0 -63 11 minecraft:redstone_block
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount matches 140 run setblock 0 -63 11 minecraft:air
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber120 run execute at @e[tag=World12ProximitytriggerDummy] run playsound minecraft:block.end_portal.spawn master @a[distance=..8] ~ ~ ~ 0.3 0.1
+#this one next line doesnt change:
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount matches 145 run data merge block -8 -60 18 {auto:1b}
+#self deactivate repetitive poweric code block
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount matches 350 run data merge block -1 -60 4 {auto:0b}
+#this one next line doesnt change:
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount matches 350 run data merge block -8 -60 22 {auto:0b}
+
+/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s PlatformActivationCount 0
+
+/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players remove @s PlatformActivationCount 1
+#lights
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber120 run execute at @e[tag=World12ProximitytriggerDummy] run setblock -8 -60 0 minecraft:redstone_block
+
+/execute as @e[tag=LobbyHappiestDummy2] if score @s PlatformActivationCount = @s AuxNumber120 run execute at @e[tag=World12ProximitytriggerDummy] run setblock -8 -60 0 minecraft:air
+
+#--
+#CodeBlock 6 #THIS ONE CODE BLOCK SECTION IS FINISHED
+#--
+/summon armor_stand -15.50 67.75 8.05 {Tags:["World3LightStartingDummy2"],Invisible:1b,Invulnerable:1b,CustomNameVisible:0b,Marker:1b,HandItems:[{id:"dustrial_decor:cyan_neon_light",Count:1b},{}]}
+
+/summon armor_stand -15.50 67.75 11.06 {Tags:["World3LightStartingDummy1"],Invisible:1b,Invulnerable:1b,CustomNameVisible:0b,Marker:1b,HandItems:[{id:"dustrial_decor:cyan_neon_light",Count:1b},{}]}
+
+/execute at @e[tag=World3ProximitytriggerDummy] run playsound alexsmobs:void_portal_open master @a[distance=..8] ~ ~ ~ 0.23 2
+
+#--
+#CodeBlock 7 #THIS ONE CODE BLOCK SECTION IS FINISHED
+#--
+/summon armor_stand -18 69 10 {Tags:["WorldModulePassingBridgeGenerator1"],Invisible:1b,Invulnerable:1b,CustomNameVisible:0b,NoGravity:1b,Rotation:[90f,0f]}
+
+#--
+#CodeBlock 8
+#(the lights CodeBlock)
+#--
+#the color of the cyan neon light doesnt change, it's for the bridge, just that one line. the fill coordinates do change
+/fill -37 108 -45 -14 95 -15 dustrial_decor:cyan_neon_light replace minecraft:cyan_wool
+#change for the colored lights
+/fill -37 108 -45 -14 95 -15 dustrial_decor:rainbow_neon_light replace minecraft:light_gray_wool
+
+#--
+#CodeBlock 8.5
+#--
+/fill -37 108 -45 -14 95 -15 minecraft:cyan_wool replace dustrial_decor:cyan_neon_light
+#change for the colored lights
+/fill -37 108 -45 -14 95 -15 minecraft:light_gray_wool replace dustrial_decor:rainbow_neon_light
+
+#--
+#CodeBlock 9
+#(The reset codeBlock)
+#--
+#no need to modifify the next one line:
+/execute as @e[tag=LobbyHappiestDummy2] run data merge block -8 -60 22 {auto:0b}
+#auto deactivation CodeBLock5 repetitive coords, you know
+/execute as @e[tag=LobbyHappiestDummy2] run data merge block -1 -60 4 {auto:0b}
+
+/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s PlatformActivationCount 0
+
+/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World12ProximityDoorStatus 0
+
+/execute as @e[tag=LobbyHappiestDummy2] run scoreboard players set @s World12AuxToggle 1
+#remove the bridge
+/fill -25 99 1 -26 99 -15 air
+#turn off lights
+/setblock -7 -60 0 minecraft:redstone_block
+
+/setblock -7 -60 0 minecraft:air
+#put the glass door back
+/clone 7 -59 21 4 -55 21 -27 100 1
 #--------
