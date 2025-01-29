@@ -1,0 +1,9 @@
+execute as @s at @s run summon item ~ ~ ~ {Item:{id:"minecraft:music_disc_11", Count:1b, tag:{CustomModelData:1, HideFlags:32, display:{Lore:["\"\\u00a77CooldownFinished1\""]}}}}
+execute as @s at @s run summon item ~ ~ ~ {Item:{id:"minecraft:music_disc_11", Count:1b, tag:{CustomModelData:2, HideFlags:32, display:{Lore:["\"\\u00a77CooldownFinished2\""]}}}}
+execute as @s at @s run summon item ~ ~ ~ {Item:{id:"minecraft:music_disc_11", Count:1b, tag:{CustomModelData:3, HideFlags:32, display:{Lore:["\"\\u00a77CooldownFinished3\""]}}}}
+execute as @s at @s run summon item ~ ~ ~ {Item:{id:"minecraft:music_disc_11", Count:1b, tag:{CustomModelData:4, HideFlags:32, display:{Lore:["\"\\u00a77HeliosVoiceSample1\""]}}}}
+execute as @s at @s run summon item ~ ~ ~ {Item:{id:"minecraft:music_disc_11", Count:1b, tag:{CustomModelData:5, HideFlags:32, display:{Lore:["\"\\u00a77HeliosVoiceSample2\""]}}}}
+execute as @s at @s run summon item ~ ~ ~ {Item:{id:"minecraft:music_disc_11", Count:1b, tag:{CustomModelData:6, HideFlags:32, display:{Lore:["\"\\u00a77HeliosVoiceSample3\""]}}}}
+execute as @s at @s run summon item ~ ~ ~ {Item:{id:"minecraft:music_disc_11", Count:1b, tag:{CustomModelData:7, HideFlags:32, display:{Lore:["\"\\u00a77HoverJet1\""]}}}}
+execute as @s at @s run summon item ~ ~ ~ {Item:{id:"minecraft:music_disc_11", Count:1b, tag:{CustomModelData:8, HideFlags:32, display:{Lore:["\"\\u00a77DoubleJump1\""]}}}}
+execute as @s at @s run summon item ~ ~ ~ {Item:{id:"minecraft:music_disc_11", Count:1b, tag:{CustomModelData:9, HideFlags:32, display:{Lore:["\"\\u00a77Teleporting1\""]}}}}
