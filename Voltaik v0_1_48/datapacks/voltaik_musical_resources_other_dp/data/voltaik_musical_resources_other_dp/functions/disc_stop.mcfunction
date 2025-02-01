@@ -1,0 +1,9 @@
+execute as @s[nbt={Item:{tag:{CustomModelData:1}}}] at @s run stopsound @a[distance=..64] record minecraft:music_disc.cooldownfinishedone
+execute as @s[nbt={Item:{tag:{CustomModelData:2}}}] at @s run stopsound @a[distance=..64] record minecraft:music_disc.cooldownfinishedtwo
+execute as @s[nbt={Item:{tag:{CustomModelData:3}}}] at @s run stopsound @a[distance=..64] record minecraft:music_disc.cooldownfinishedthree
+execute as @s[nbt={Item:{tag:{CustomModelData:4}}}] at @s run stopsound @a[distance=..64] record minecraft:music_disc.heliosvoicesampleone
+execute as @s[nbt={Item:{tag:{CustomModelData:5}}}] at @s run stopsound @a[distance=..64] record minecraft:music_disc.heliosvoicesampletwo
+execute as @s[nbt={Item:{tag:{CustomModelData:6}}}] at @s run stopsound @a[distance=..64] record minecraft:music_disc.heliosvoicesamplethree
+execute as @s[nbt={Item:{tag:{CustomModelData:7}}}] at @s run stopsound @a[distance=..64] record minecraft:music_disc.hoverjetone
+execute as @s[nbt={Item:{tag:{CustomModelData:8}}}] at @s run stopsound @a[distance=..64] record minecraft:music_disc.doublejumpone
+execute as @s[nbt={Item:{tag:{CustomModelData:9}}}] at @s run stopsound @a[distance=..64] record minecraft:music_disc.teleportingone
