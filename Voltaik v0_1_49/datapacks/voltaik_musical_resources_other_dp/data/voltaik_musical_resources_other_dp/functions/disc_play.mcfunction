@@ -1,0 +1,13 @@
+execute as @s[scores={heldDisc=1}] run function voltaik_musical_resources_other_dp:play_cooldownfinishedone
+execute as @s[scores={heldDisc=2}] run function voltaik_musical_resources_other_dp:play_cooldownfinishedtwo
+execute as @s[scores={heldDisc=3}] run function voltaik_musical_resources_other_dp:play_cooldownfinishedthree
+execute as @s[scores={heldDisc=4}] run function voltaik_musical_resources_other_dp:play_doublejumpone
+execute as @s[scores={heldDisc=5}] run function voltaik_musical_resources_other_dp:play_hoverjetone
+execute as @s[scores={heldDisc=6}] run function voltaik_musical_resources_other_dp:play_loadingscreenthemeone
+execute as @s[scores={heldDisc=7}] run function voltaik_musical_resources_other_dp:play_sectioncompleteone
+execute as @s[scores={heldDisc=8}] run function voltaik_musical_resources_other_dp:play_sectioncompletetwo
+execute as @s[scores={heldDisc=9}] run function voltaik_musical_resources_other_dp:play_teleportingone
+execute as @s[scores={heldDisc=10}] run function voltaik_musical_resources_other_dp:play_teleportingtwo
+execute as @s[scores={heldDisc=11}] run function voltaik_musical_resources_other_dp:play_heliosvoicesampleone
+execute as @s[scores={heldDisc=12}] run function voltaik_musical_resources_other_dp:play_heliosvoicesampletwo
+execute as @s[scores={heldDisc=13}] run function voltaik_musical_resources_other_dp:play_heliosvoicesamplethree
